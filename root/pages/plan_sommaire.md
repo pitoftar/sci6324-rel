@@ -17,9 +17,12 @@ Petit sommaire de nos recherches
 -->
 
 ## Que peuvent faire les bibliothécaires ?
+
 <!--
 Donner des ressources, proposer des plans d'action
 -->
+
+- Le rôle des bibliothécaires : gérer un type d'accès à l'information
 
 ## Coffre à outils
 <!-- On pourrait présenter ici les ressources intéressantes pour la découverte de musique par des bibliothécaires en contexte québécois :
