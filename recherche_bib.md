@@ -6,7 +6,7 @@ Les textes sont organisés dans deux catégories : « Influence algorithmique�
 
 ---
 
-## Aguiar et Waldfogel 2021
+## Aguiar.Waldfogel2021
 
 ### Résumé
 
@@ -37,6 +37,8 @@ Ils souhaitent également constater quels types de chansons et/ou d'artistes qui
 Les auteurs parveniennent à la conclusion que Spotify influence fortement la popularité et la découvrabilité des chansons qui sont incluses dans les listes de lecture les plus suivies et consultées.
 
 
+
+
 ### Extraits
 
 > While there is free entry in playlists at Spotify – anybody can create and share their own playlist, which can then be followed by any other user – there is a high degree of concentration by list owner. Of the 25 most-followed playlists, 24 are maintained and curated by Spotify. Playlists owned and curated by Spotify also cover more than 75 per cent of the followers of the top 1,000 playlists at Spotify.
@@ -53,6 +55,36 @@ Les auteurs parveniennent à la conclusion que Spotify influence fortement la po
 
 > Spotify itself maintains both curated and chart-based algorithmic general playlists, as well as playlists that are customized to each user. These different playlists work in different ways. Among those that are not tailored to individual users, lists vary along two dimensions: whether they are algorithmic or curated by humans and whether they are global or country-specific.
 
+> Third parties outside of Spotify recommend providing Spotify editors with evidence of success outside of the platform: the ‘editorial board doesn’t just draw from your performance on the Spotify platform … the more established you are as an artist and the better your name recognition, the better your chances of getting accepted.’ Soundcharts advises that an artist's ‘profile on other platforms like YouTube and Facebook’ and ‘a high-quality website’ are also useful for getting on Spotify's editorial playlists.
+
+> all of the 25 most-followed playlists are maintained by Spotify, and all but one of them (_Global Top 50_) are curated and therefore discretionary rather than algorithmic.
+
 ### Commentaires
 
 - Le fonctionnement de Spotify pour « tester » la popularité d'une chanson est intéressant entre autres parce qu'il risque d'être autophage. On pourrait imaginer les playlists populaires (_Today's Top Hits_) comme un apex : les chansons doivent « gravir » les échelons de playlists de plus en plus populaire, avant d'atterrir dans les listes les plus suivies. À partir de là, elles pourront être diffusées (notamment par les utilisataires, mais aussi par Spotify) dans d'autres playlists dont le nombre d'abonné·es est moins grand, où elles constituent désormais des « valeurs sûres » qui servent d'appui pour tester les chansons nouvelles venues. (ASA)
+
+- Spotify fonctionne sur un modèle d'affaire qui ne favorise pas la prise de risques. La plateforme a besoin de preuves de la notorité et du capital populaire des artistes, lesquelles passent forcément par une présence numérique réfléchie et soignée. (ASA)
+
+## Guibert.etal2016
+
+### Résumé
+
+Les auteurs s'intéressent aux nouvelles dynamiques économiques qui émergent de l'arrivée des plateformes comme Netflix ou Spotify dans les industries culturelles et médiatiques.
+
+### Extraits
+
+> [Les plateformes] modifient les lieux de création et les formes de la valeur marchande. (82)
+
+> une  méthode d’expansion,  de combinaison  et  d’exploitation  de  ressources  afin de créer et de commercialiser des biens et des services innovants, dont la valeur surpasse ce qu’offrent déjà les concurrents et dont les revenus génèrent une profitabilité à l’entreprise qui l’adopte. (88, par rapport au modèle d'affaire des plateformes)
+
+## Simard.etal2025
+
+### Résumé
+
+### Extraits
+
+> En plus de son importance culturelle, l’audiovisuel est un moteur économique puissant. Avec une valeur ajoutée de 3,27 G$ pour le PIB québécois, il soutient chaque année des dizaines de milliers d’emplois qualifiés. Ses retombées économiques surpassent celles de secteurs clés comme les mines, la foresterie ou encore les technologies de l’information, confirmant son rôle stratégique dans l’économie du Québec. Cet écosystème, à la croisée de la culture, de l’innovation et des industries créatives, agit comme un levier de cohésion culturelle et identitaire, de rayonnement international et d’attractivité économique pour le Québec. (12-13)
+
+### Commentaires
+
+- Puisqu'il s'agit d'un rapport politique, les auteur·ices
