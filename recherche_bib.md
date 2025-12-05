@@ -36,9 +36,6 @@ Ils souhaitent également constater quels types de chansons et/ou d'artistes qui
 
 Les auteurs parveniennent à la conclusion que Spotify influence fortement la popularité et la découvrabilité des chansons qui sont incluses dans les listes de lecture les plus suivies et consultées.
 
-
-
-
 ### Extraits
 
 > While there is free entry in playlists at Spotify – anybody can create and share their own playlist, which can then be followed by any other user – there is a high degree of concentration by list owner. Of the 25 most-followed playlists, 24 are maintained and curated by Spotify. Playlists owned and curated by Spotify also cover more than 75 per cent of the followers of the top 1,000 playlists at Spotify.
@@ -61,7 +58,7 @@ Les auteurs parveniennent à la conclusion que Spotify influence fortement la po
 
 ### Commentaires
 
-- Le fonctionnement de Spotify pour « tester » la popularité d'une chanson est intéressant entre autres parce qu'il risque d'être autophage. On pourrait imaginer les playlists populaires (_Today's Top Hits_) comme un apex : les chansons doivent « gravir » les échelons de playlists de plus en plus populaire, avant d'atterrir dans les listes les plus suivies. À partir de là, elles pourront être diffusées (notamment par les utilisataires, mais aussi par Spotify) dans d'autres playlists dont le nombre d'abonné·es est moins grand, où elles constituent désormais des « valeurs sûres » qui servent d'appui pour tester les chansons nouvelles venues. (ASA)
+- Le fonctionnement de Spotify pour « tester » la popularité d'une chanson est intéressant entre autres parce qu'il risque d'être autophage. On pourrait imaginer les playlists populaires (_Today's Top Hits_) comme un apex : les chansons doivent « gravir » les échelons de playlists de plus en plus populaire, avant d'atterrir dans les listes les plus suivies. À partir de là, elles pourront être diffusées (notamment par les utilisateur·ices, mais aussi par Spotify) dans d'autres playlists dont le nombre d'abonné·es est moins grand, où elles constituent désormais des « valeurs sûres » qui servent d'appui pour tester les chansons nouvelles venues. (ASA)
 
 - Spotify fonctionne sur un modèle d'affaire qui ne favorise pas la prise de risques. La plateforme a besoin de preuves de la notorité et du capital populaire des artistes, lesquelles passent forcément par une présence numérique réfléchie et soignée. (ASA)
 
@@ -81,10 +78,35 @@ Les auteurs s'intéressent aux nouvelles dynamiques économiques qui émergent d
 
 ### Résumé
 
+L'objectif du rapport est de détailler une série de mesure destinées à « réaffirmer notre souveraineté culturelle » (12-13) afin de contenir l'« attrition » des jeunes devant le contenu québécois.
+
+Le rapport propose à terme une réinjection de fonds publics issus de la baisse de certaines dépenses fiscales (en particulier celles liées aux services de production de contenu) dans la SODEC et Télé-Québec. Les recommandations incluent notamment le retrait de la publicité sur les ondes de Télé-Québec
+
 ### Extraits
 
 > En plus de son importance culturelle, l’audiovisuel est un moteur économique puissant. Avec une valeur ajoutée de 3,27 G$ pour le PIB québécois, il soutient chaque année des dizaines de milliers d’emplois qualifiés. Ses retombées économiques surpassent celles de secteurs clés comme les mines, la foresterie ou encore les technologies de l’information, confirmant son rôle stratégique dans l’économie du Québec. Cet écosystème, à la croisée de la culture, de l’innovation et des industries créatives, agit comme un levier de cohésion culturelle et identitaire, de rayonnement international et d’attractivité économique pour le Québec. (12-13)
 
 ### Commentaires
 
-- Puisqu'il s'agit d'un rapport politique, les auteur·ices
+- Puisqu'il s'agit d'un rapport adressé à un ministe, les auteur·ices appuient très fort sur le piton de la valeur économique de la culture dans l'économie québécoise. C'est un peu le festival du buzzword. (ASA)
+- Malgré une focalisation forte et affirmée sur les institutions publiques, le rapport ne mentionne pas le rôle des bibliothèques comme acteurs de la transmission culturelle du contenu audiovisuel. BAnQ sont présentées plutôt rapidement comme « une infrastructure essentielle de mémoire collective et d’inclusion culturelle » (60-61) : c'est surtout Télé-Québec que les auteur·ices considèrent comme « vecteur de diffusion de contenus » (_ibid._). Les bibliothécaires ont tout avantage à reprendre (ou, à tout le moins, à partager) ce rôle. La mesure 9, en particulier, mise sur la facilitation de l'accès aux œuvres québécoises passées et présentes en les rendant « visibles, accessibles et désirables » à travers une « valorisation active » du patrimoine culturel québécois (70-71). Il s'agit là d'un rôle que les bibliothèques et les bibliothécaires sont formé·es (sinon outillé·es) pour remplir. (ASA)
+
+## deRegt2020
+
+### Résumé
+
+L'autrice note que les listes de lecture créées sur Spotify ont désormais peu à voir avec le genre musical, mais davantage avec les situations d'écoute et les « atmosphères » (_moods_) associées à la musique.
+En ce sens, les listes de lectures agissent comme un « nouveau genre » à part entière, lequel est entièrement régi par la plateforme. Elle explore les influences que ce « nouveau genre » a sur les musicien·nes et les utilisateur·ices de Spotify.
+
+Spotify accorde évidemment une plus grande importance proportionnelle à ses propres listes de lecture comparativement à celles créées par d'autres utilisateur·ices. Sur ces listes de lecture, les artistes signé·es par des maisons de disque avec lesquelles Spotify possède des ententes optiennent des places privilégiées.
+
+### Extraits
+
+> these mood playlists are an example of how Spotify has the power on who listens to what.
+
+> Spotify favours promoting their playlists over playlists made by major labels or individual users. The major labels are not left out due to this choice. The Spotify-owned playlists include more music produced by these labels than smaller artists.
+
+> [Spotify] revenues are reliant on how many times a track is played in relation to all other tracks played on the platform. Even if a smaller artist has a high streaming rate, how much they receive depends on how many streams the big players get. Mostly resulting in lower royalties for smaller artists.
+
+### Commentaires
+
