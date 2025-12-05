@@ -33,7 +33,7 @@ Petit sommaire de nos recherches
 ### Examen de la visualisation
 <!---->
 
-MusiQC : dans l'espace de moins d'un an, le contenu québécois est noyé dans le contenu « francophone », donc français. Musique « en français ».
+MusiQC : en l'espace de moins d'un an, le contenu québécois est noyé dans le contenu « francophone », donc français. Musique « en français » n'est pas un regroupement fédérateur, n'a pas d'impact sur la désirabilité des contenus, ne convient qu'à ceux et celles qui le cherchent déjà.
 
 ### Un cas particulier : _La Hit Liste_
 
@@ -54,4 +54,3 @@ Donner des ressources, proposer des plans d'action
 
 - Le rôle des bibliothécaires : gérer un type d'accès à l'information
 - Les métadonnées ; bibliothécaire de données, les artistes ne sont pas formé·es pour informer les métadonnées, mettre leurs contenus en relation : les bibliothécaires, oui.
-- 
