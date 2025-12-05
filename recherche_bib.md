@@ -90,6 +90,8 @@ Le rapport propose à terme une réinjection de fonds publics issus de la baisse
 
 - Puisqu'il s'agit d'un rapport adressé à un ministe, les auteur·ices appuient très fort sur le piton de la valeur économique de la culture dans l'économie québécoise. C'est un peu le festival du buzzword. (ASA)
 - Malgré une focalisation forte et affirmée sur les institutions publiques, le rapport ne mentionne pas le rôle des bibliothèques comme acteurs de la transmission culturelle du contenu audiovisuel. BAnQ sont présentées plutôt rapidement comme « une infrastructure essentielle de mémoire collective et d’inclusion culturelle » (60-61) : c'est surtout Télé-Québec que les auteur·ices considèrent comme « vecteur de diffusion de contenus » (_ibid._). Les bibliothécaires ont tout avantage à reprendre (ou, à tout le moins, à partager) ce rôle. La mesure 9, en particulier, mise sur la facilitation de l'accès aux œuvres québécoises passées et présentes en les rendant « visibles, accessibles et désirables » à travers une « valorisation active » du patrimoine culturel québécois (70-71). Il s'agit là d'un rôle que les bibliothèques et les bibliothécaires sont formé·es (sinon outillé·es) pour remplir. (ASA)
+- Le rôle de bibliothécaire est, par définition, un rôle de curation de contenu. (ER)
+
 
 ## deRegt2020
 
@@ -122,6 +124,29 @@ Spotify accorde évidemment une plus grande importance proportionnelle à ses pr
 
 ## Gendron-Martin2025
 
+### Extraits
+
+> On sait très bien que les gens consomment maintenant de plus en plus leur musique sur ces plateformes-là, avait mentionné au *Journal* Ariane Charbonneau, directrice générale de la SPACQ-AE. L’idée n’est pas de changer comment ils écoutent de la musique, mais plutôt ce qu’ils écoutent
+
+> Témoin des défis rencontrés par les artistes francophones, tant au Québec qu’à l’étranger, pour se faire entendre sur les plateformes d’écoute en ligne
+
 ### Commentaires
 
-- MusiQC se veut être un « dépôt » de listes de lectures, qui circuleront ensuite sur les grandes plateformes. Le but de la plateforme n'est pas de changer _comment_ les gens écoutent la musique, mais plutôt _ce qu'iels écoutent comme musique_. (ER)
+- MusiQC se veut être un « dépôt » de listes de lectures, qui circuleront ensuite sur les grandes plateformes. Le but de la plateforme n'est pas de changer _comment_ les gens écoutent la musique, mais plutôt _ce qu'iels écoutent comme musique_. MusiQC est limité, et basé sur un modèle qui a déjà échoué. (ER)
+
+
+## Guglielminetti2025
+
+### Résumé
+
+61% des répondant·es considèrent que la musique francophone est déjà facile à trouver sur les plateformes. 4% considèrent que la réglementation devrait être une priorité.
+
+### Commentaires
+
+- Le problème n'est pas que la musique québécoise n'est pas _trouvable_, mais plutôt qu'elle n'est pas (assez?) découvrable, par sérendipité. Il me semble qu'il y a avant tout un problème de valeur et de valorisation de ce contenu.
+
+## Lacasse.Martel2025
+
+### Commentaires
+
+- Plutôt que de multiplier les plateformes

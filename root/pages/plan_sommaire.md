@@ -7,7 +7,8 @@
         - MusiQC : un geste conscient de la manière dont on va chercher de la musique, ce qui va à l'encontre de la manière dont l'écosystème fonctionne actuellement
     - est-ce que c'est la meilleure manière de partager de la culture
     - les bibliothécaires ont un rôle dans cet écosystème; iels font partie de la réponse
-- Métamusique : un contrôle sur les métadonnées par les artistes. Cependant, les métadonnées sont lacunaires ou absentes.
+- Métamusique : un contrôle sur les métadonnées par les artistes. Cependant, les métadonnées sont lacunaires ou absentes. On veut jouer sur le terrain de la données : des métadonnées plus riches permetteraient aux plateformes de ramasser plus de musique québécoise.
+- Loi n°109 : projet de loi pour modifier la charte des droits et libertés pour ajouter le « droit à la découvrabilité des contenus culturels » et protéger l'accès à des contenus francophones. Les plateformes numériques et les fabricants doivent avoir une interface en français. YouTube, Spotify, Amazon et Apple Music considèrent que cela « limite la liberté d'écoute des auteur·ices ».
 
 ### Méthodologie
 
