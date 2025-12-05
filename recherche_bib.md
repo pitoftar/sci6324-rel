@@ -118,9 +118,12 @@ Spotify accorde évidemment une plus grande importance proportionnelle à ses pr
 
 ### Extraits
 
+> 
+
 ### Commentaires
 
 - Pelly rejoint les conclusions de @Aguiar.Waldfogel2021 selon lesquelles, malgré la présence de curateur·ices humain·es, la composition des listes de lectures est très fortement influencées par les données d'écoutes. (VG)
+- L'industrie musicale n'est pas dévouée à la production d'un objet, mais à la production de la demande. (VG)
 
 ## Gendron-Martin2025
 
