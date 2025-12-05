@@ -110,3 +110,18 @@ Spotify accorde évidemment une plus grande importance proportionnelle à ses pr
 
 ### Commentaires
 
+## Pelly2023
+
+### Résumé
+
+### Extraits
+
+### Commentaires
+
+- Pelly rejoint les conclusions de @Aguiar.Waldfogel2021 selon lesquelles, malgré la présence de curateur·ices humain·es, la composition des listes de lectures est très fortement influencées par les données d'écoutes. (VG)
+
+## Gendron-Martin2025
+
+### Commentaires
+
+- MusiQC se veut être un « dépôt » de listes de lectures, qui circuleront ensuite sur les grandes plateformes. Le but de la plateforme n'est pas de changer _comment_ les gens écoutent la musique, mais plutôt _ce qu'iels écoutent comme musique_. (ER)
