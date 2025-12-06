@@ -1,5 +1,5 @@
 <!-- Adrien, Emilie, Vincent -->
-## Métamusique <!-- Vincent -->
+## MétaMusique <!-- Vincent -->
 
 ## Le rôle des institutions <!-- Adrien -->
 
