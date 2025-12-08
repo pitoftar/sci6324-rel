@@ -3,7 +3,7 @@ Ce dépôt se veut servir pour le développement du site `melomane.ebsi.umontrea
 
 ## Objectifs du projet
 - Informer et sensibiliser les bibliothécaires à l'écosystème de la découverte et recherche de contenu musical québécois
-- Encourager les bibliothécaire à adopter un rôle de médiataires culturel·les
+- Encourager les bibliothécaires à adopter un rôle de médiataires culturel·les
 - Leur fournir des outils et des pistes afin d'adopter ce rôle
 
 ## Licence
