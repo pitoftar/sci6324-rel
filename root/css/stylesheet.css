@@ -77,19 +77,19 @@ body {
 .cont {
     display: flex;
     flex-direction: row;
-    height: 90vh;
+    height: 89vh;
     line-height: 175%;
 }
 
 .gauche {
-    flex-basis: 35%;
+    flex-basis: 45%;
     overflow-y: auto;
     padding-left: 10%;
     padding-right: 10%;
 }
 
 .droite { 
-    flex-basis: 65%; 
+    flex-basis: 55%; 
     padding: 5%; 
     overflow: hidden;
 }
