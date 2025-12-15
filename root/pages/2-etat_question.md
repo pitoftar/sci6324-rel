@@ -20,3 +20,12 @@
    			- nous découvrons du contenu musical pour accompagner une activité comme laver la vaisselle et, ce faisant, découvrons que la vaisselle se doit d'avoir une musique d'accompagnement et que Spotify est la plateforme sur laquelle un tel contenu est offert
    - La découvrabilité des contenus dépend donc de cette boucle de rétroaction, qui permet à Spotify d'anticiper les besoins de l'auditeur·trice, besoins réifiés suivant une logique algorithmique basée sur les données d'écoute (Pelly, 2025, "Selling Lean-Back Listening")
 	- Aujourd'hui, son modèle de plateforme est, qu'on le veuille ou non, un vecteur culturel incontournable reposant sur l'accumulation constante de données massives (Werner, 2020, p.85)
+# Québec
+- Particularité de l'enjeu de la découvrabilité au Québec: volonté sociale et politique de mettre de l'avant la langue française dans un contexte géographique où ses locuteurs et ses locutrices sont en sous-nombre
+	- Indépendamment de la politisation de cette volonté, cette dernière peut être comprise comme la conséquence de la perception d'une réalité géo-linguistique
+	- La culture est conçue, dans un tel contexte, comme un véhicule particulièrement efficace pour palier cette réalité géo-linguistique, perçue comme manque
+		- Le sous-nombre de locuteur·trice·s est construit discursivement comme une menace provenant de l'externe et qui, de l'intérieur, affaiblit le tissu social 
+	- L'adoption récente du projet de Loi no. 109 va dans ce sens: la Loi cherche à faire face à "à la fragilisation de l’usage du français dans la province, notamment dans les pratiques culturelles", dans un contexte où le Québec est le "foyer de la langue française et de la culture francophone en Amérique" (_Adoption de la loi sur la découvrabilité des contenus culturels francophones_, s. d.)
+- Toute la problématique réside donc dans la rencontre entre les intérêts économiques des plateformes de services de diffusion et les intérêts socio-politico-linguistiques québécois
+	- D'une part, les plateformes, quasi-hégémoniques dans leur emprise sur la consommation culturelle n'ont que peu de raisons de changer leur modèle, si ce n'est que pour accroître leurs revenus
+	- D'autre part, les intérêts politiques et financiers des milieux culturel et gouvernemental québécois identifient cette quasi-hégémonie comme une menace irrésistible au bien-être de leurs "sujets"
