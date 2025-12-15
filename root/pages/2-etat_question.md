@@ -29,3 +29,10 @@
 - Toute la problématique réside donc dans la rencontre entre les intérêts économiques des plateformes de services de diffusion et les intérêts socio-politico-linguistiques québécois
 	- D'une part, les plateformes, quasi-hégémoniques dans leur emprise sur la consommation culturelle n'ont que peu de raisons de changer leur modèle, si ce n'est que pour accroître leurs revenus
 	- D'autre part, les intérêts politiques et financiers des milieux culturel et gouvernemental québécois identifient cette quasi-hégémonie comme une menace irrésistible au bien-être de leurs "sujets"
+- Une des tentatives les plus récentes de faire se rencontrer les mécanismes des plateformes de services de diffusion et la culture francophone: MUSIQC 
+	- Initiative de la Société professionnelle des auteurs, compositeurs du Québec et des artistes entrepreneurs (SPACQ-AE)
+	- Lancé le 12 février 2025
+	- La manière dont il faut parler de cette initiative est ambiguë, et c'est précisément cette ambiguïté qui constitue sont aspect fondamentalement inane: est-ce une plateforme? une vitrine? un espace? un outil?
+		- C'est certainement un site web, proposant des listes de lecture créées par 116 programmateurs et programmatrices, avec des titres aussi évocateurs que "Besoin d'évasion", "Nouveauté franco-canadiennes selon l'APCM", "Reprise en vrac" ou encore "Chansons pour un kickflip"
+		- "L'idée n'est pas de changer comment \[les gens\] écoutent de la musique, mais plutôt ce qu'ils écoutent." - Arianne Charbonneau, directrice générale de la SPACQ-AE
+			- La question, et la réponse, qui se trouve au détour d'une telle affirmation est: en quoi MUSIQC change ce qu'écoutent les gens? En rien. Sur Spotify, en date du 15 décembre 2025, MUSIQC est un profil utilisateur avec 418 listes de lectures et 2164 abonné·e·s.
