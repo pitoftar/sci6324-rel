@@ -17,5 +17,18 @@
 ## Le rôle des institutions <!-- Adrien -->
 
 - Les ressources de l'état dépassent largement celles de Spotify, mais elles sont déjà allouées au maintien de certains espaces publics, de formation, de culture
+- Beaucoup d'argent de l'état aboutit déjà dans diverses institutions : écoles, espaces publics, salles de spectacles et... bibliothèques
+- Ces institutions sont déjà en place, bénéficient déjà de visibilité et de crédibilité au sein de la population citoyenne
+- Elles ne sont pourtant pas considérées comme possédant une expertise pertinente (cf le rapport Souffler les braises, dans lequel la seule bibliothèque mentionnée est BAnQ, dans un rôle dérisoire)
+- BAnQ a assumé un rôle important avec le dépôt légal de musique via MétaMusique
+- BAnQ se pose aussi comme un diffuseur de la musique dont elle assume le dépôt légal, mais seulement sur place et sous certaines conditions
+- MUSICat offre un service de programmation implanté dans une vingtaine de bibliothèques en Amérique du Nord [@Blakeley2025]
+- Des solutions comme MusiCAT peuvent contribuer à une rémunération plus juste
+- Cependant, ces initiatives ont aussi des retombées indirectes : elles créent des liens interpersonnels entre les musicien·nes (et, au-delà, avec diverses acteur·ices du milieu culturel et musical) et les bibliothèques (et, par la bande, avec les bibliothécaires) et elle implique directement les bibliothécaires dans l'écosystème de la découverte de contenu culturel [@Smith2024]
+- MUSICat encourage les bibliothèques à envisager la musique issue de la scène locale non comme un produit à diffuser, mais comme une collection culturelle, au même titre qu'une collection de livres [@Blakeley2025]
+- Si la multiplication des plateformes peut difficilement être considérée comme une solution, les bibliothèques peuvent _a minima_ travailler en partenariat avec les artistes
+- Les institutions auraient tout avantage à se responsabiliser vis-à-vis de la scène musicale locale : prévoir des tâches (mieux, des postes !) pour les bibliothécaires, publiciser (mieux, accueillir !) des spectacles de groupes locaux
+- Les bibliothèques peuvent assumer la responsabilité de fournir du contenu culturel et musical aux personnes qui en cherchent déjà (public cible d'initiatives comme Qub ou Musiqc)
+- Elles peuvent aussi faire de l'advocacy (prendre parole) pour _intéresser_ les publics qui fréquentent la bibliothèque ou son espace numérique aux artistes de la scène locale
 
 ## Mets ton nez là-dedans ! <!-- Vincent -->
