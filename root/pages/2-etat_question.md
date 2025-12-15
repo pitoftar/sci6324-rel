@@ -12,6 +12,9 @@
 		- L'intérêt culturel pour la musique est un filon d'or représentant, toujours en 2023 et pour l'exploitation, la production et la distribution d'enregistrements, 903,3 millions de dollars
 		- Dans le contexte des PSD, cet argent provient notamment des utilisateurs et utilisatrices
 	- Tout ce que les PSD font doit donc être compris en fonction d'un prisme d'accumulation de ses utilisateur·trice·s
-- Spotify, la plateforme dominante en matière d'écoute en continue, repose principalement sur la suggestion de listes d'écoute, créées par des employé·e·s ou des utilisateur·trice·s, lesquelles se classent en genres, en sous-genres et, surtout, selon l'ambiance, le *mood*, "recherché" par ces dernières. 
+- Spotify, la plateforme dominante en matière d'écoute en continue, repose principalement sur la suggestion de contenus
+	- Cette suggestion est faite en fonction de plusieurs métrique
+- lesquels se classent en genres, en sous-genres et, surtout, selon l'ambiance, le *mood*, "recherché" 
 	- Guillemets sont importants, car cette "recherche" est en réalité le produit d'une anticipation par Spotify des besoins de l'auditeur·trice, besoins réifiés en *mood* suivant une logique algorithmique basée sur les données d'écoute (Pelly, 2025, "Selling Lean-Back Listening")
+ 	- 
 	- Aujourd'hui, son modèle de plateforme est, avec tous ses avantages et défauts et qu'on le veuille ou non, un vecteur culturel incontournable
