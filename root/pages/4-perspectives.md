@@ -41,7 +41,7 @@ Considérant à la fois l'importance que des bonnes métadonnées peuvent avoir 
 En d'autres termes, l'impact que l'on peut avoir sur la plateforme est minime, mais on peut avoir un impact sur la qualité des données à l'entrée.
 Plutôt que de tenter de jouer contre Spotify, les bibliothécaires ont avantage à ==comprendre les règles du jeu et à voir comment le contenu musical québécois peut en tirer profit==.
 
-### Le rôle des institutions <!-- Adrien -->
+### Musique et bibliothèques <!-- Adrien -->
 
 S'investir dans des projets comme MétaMusique, c'est bien; utiliser les ressources des institutions que sont les bibliothèques pour mettre en valeur le contenu musical local, c'est encore mieux !
 
