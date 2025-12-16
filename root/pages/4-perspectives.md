@@ -1,4 +1,6 @@
 <!-- Adrien, Emilie, Vincent -->
+## Perspectives
+
 Les « vitrines » de diffusion de contenu musical comme MusiQC -- ou Qub avant elle -- tentent de répondre aux besoin d'un public ciblé et spécifique -- les auditeur·trices francophones, et spécifiquement québécois·es.
 À la racine de ce qui motive la création de nouveaux espaces recoupant largement les offres de plateformes hégémoniques se trouve la conviction que certains publics sont négligés par ces dernières.
 Or, que cette conviction soit fondée ou non, il demeure que les principaux·ales intéressé·es ne se _sentent_ pas négligé·es par les plateformes : en effet, @Guglielminetti2025 rapporte que ==61% des Québécois·es « estiment que la musique francophone est déjà facile à trouver »==.
@@ -13,27 +15,33 @@ _Chercher_ ne signifie pas non plus _découvrir_ : les utilisateur·trices grav
 
 Dans ce contexte, quel est le pouvoir d'action des bibliothèques et des bibliothécaires ?
 
-## MétaMusique <!-- Adrien -->
+### MétaMusique <!-- Adrien -->
 
 Fondée en 2020 par un nombre important d'acteurs du milieu culturel et musical québécois[^accronymes], [MétaMusique](https://metamusique.ca/) se présente comme un « outil de gestion des métadonnées » qui « permet de documenter les nouvelles parutions avec des métadonnées complètes pour en simplifier ensuite la diffusion, la déclaration et le référencement » [@Metamusique2024].
 MétaMusique est une plateforme avant tout destinée aux artistes, aux producteur·trices et aux maisons de disque.
-Toutefois, 
+Toutefois, elle admet que le renseignement des métadonnées est une « douloureuse étape obligatoire » pour les artistes.
+
+C'est à ce niveau que les bibliothécaires devraient logiquement entrer en scène.
+Leur profession les outille et spécialise dans la maîtrise de l'information, laquelle prend également -- et peut-être surtout -- la forme de données.
+À l'exception de BAnQ, impliquées depuis 2025 dans le dépôt légal des enregistrements sonores numériques [@Metamusique2025], une étape exigée par la Loi sur Bibliothèque et Archives nationales du Québec [@EditeurofficielduQuebec2015], les bibliothèques brillent par leur absence autour du projet de MétaMusique.
+Pourtant, les bibliothécaires et les institutions dont iels sont font partie ont tout avantage à se réfléchir comme des spécialistes des (méta)données et à se positionner ainsi dans le milieu public.
 
 [^accronymes]: De ce nombre, on compte l'ADISQ (Association québécoise de l'industrie du disque, du spectacle et de la vidéo), l'APEM (Association des professionnels de l'édition musicale), ARTISTI, le CQM (Conseil québécois de la musique), la GMMQ (Guide des musiciens et musiciennes du Québec), la SOCAN (Society of Composers, Authors and Music Publishers of Canada), la SOPROQ (Société de gestion collective des droits des producteurs de phonogrammes et de vidéogrammes du Québec, désormais « Panorama »), la SPACQ (Société professionnelle des auteurs, compositeurs du Québec) et l'UDA (Union des artistes).
 
-- Métamusique présente l'information des métadonnées comme une « douloureuse étape obligatoire » pour les artistes.
-- Les bibliothécaires sont, par définition, des spécialistes de l'information
-- L'information prend la forme de données
-- Les bibliothécaires doivent se réfléchir comme des spécialistes des données et se positionner ainsi dans le milieu public
-- Le mot d'ordre de la métadonnée : standardisation
-- Les musicien·nes ne sont pas expert·es des données
-- L'entreprise de MétaMusique n'est réellement utile que si les données sont en quantité et en qualité suffisante pour faire rayonner les contenus
-- Les bibliothécaires et les artistes québécois·es peuvent travailler ensemble pour enrichir les contenus et ainsi améliorer leur découvrabilité
-- On a peu d'impact sur la plateforme, mais on peut avoir un impact sur la qualité des données à l'entrée
-- Il est inutile de tenter de s'insérer dans un système déjà monopolisé par des plateformes dont tous les efforts sont concentrés sur la collection de données et la rétention
-- Plutôt que de tenter de jouer contre Spotify, on a avantage à comprendre les règles du jeu et de voir comment on peut en tirer profit.
+La standardisation est le mot d'ordre de la conception d'un schéma et du renseignement des métadonées [@Gilliland2016].
+Une entreprise comme celle de MétaMusique n'est donc réellement utile qu'au moment où les données sont en quantité et en qualité suffisante pour faire rayonner les contenus.
+Les acteurs du milieu musical connaissent bien leurs besoins, mais ne sont pas des expert·es des données; les bibliothécaires ont des compétences en maîtrise de l'information qui pourraient contribuer à positionner avantageusement les contenus culturels et musicaux locaux dans l'écosystème des données, mais ne sont pas au courant des besoins spécifiques de l'industrie.
+En travaillant de concert avec les bibliothécaires pour développer des schémas de métadonnées riches et adaptés, contribuer au développement de MétaMusique et indexer professionnellement et systématiquement les productions musicales québécoises, les artistes peuvent enrichir leurs contenus et ainsi améliorer leur découvrabilité.
 
-## Le rôle des institutions <!-- Adrien -->
+Un partenariat de ce type constituerait aussi un levier discret mais efficace par rapport aux plateformes de diffusion de contenu musical en continu.
+L'ajout de listes de lectures axées sur le contenu québécois dans un écosystème déjà saturé n'a que peu d'impact sur le rayonnement de la production musicale québécoise.
+Les vitrines comme MusiQC s'installent dans un système qui favorise considérablement ses propres contenus [@Aguiar.Waldfogel2021] et échouent donc à générer un trafic significatif.
+Elles s'implantent sans déranger et sans conséquence.
+Considérant à la fois l'importance que des bonnes métadonnées peuvent avoir dans le renversement des inéquités structurellement reconduites par des plateformes comme Spotify [@Valverde2025] et l'impact minimal que l'interaction avec ces plateformes peuvent avoir en tant qu'_utilisateur·trices_, les bibliothécaires doivent outiller les artistes à se réfléchir davantage comme des _producteur·trices_ de données.
+En d'autres termes, l'impact que l'on peut avoir sur la plateforme est minime, mais on peut avoir un impact sur la qualité des données à l'entrée.
+Plutôt que de tenter de jouer contre Spotify, les bibliothécaires ont avantage à ==comprendre les règles du jeu et à voir comment le contenu musical québécois peut en tirer profit==.
+
+### Le rôle des institutions <!-- Adrien -->
 
 - Les ressources de l'état dépassent largement celles de Spotify, mais elles sont déjà allouées au maintien de certains espaces publics, de formation, de culture
 - Beaucoup d'argent de l'état aboutit déjà dans diverses institutions : écoles, espaces publics, salles de spectacles et... bibliothèques
