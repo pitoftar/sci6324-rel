@@ -1,14 +1,33 @@
 <!-- Adrien, Emilie, Vincent -->
+Les « vitrines » de diffusion de contenu musical comme MusiQC -- ou Qub avant elle -- tentent de répondre aux besoin d'un public ciblé et spécifique -- les auditeur·trices francophones, et spécifiquement québécois·es.
+À la racine de ce qui motive la création de nouveaux espaces recoupant largement les offres de plateformes hégémoniques se trouve la conviction que certains publics sont négligés par ces dernières.
+Or, que cette conviction soit fondée ou non, il demeure que les principaux·ales intéressé·es ne se _sentent_ pas négligé·es par les plateformes : en effet, @Guglielminetti2025 rapporte que ==61% des Québécois·es « estiment que la musique francophone est déjà facile à trouver »==.
+La multiplication des vitrines est donc problématique en ce qu'elle tente de régler quelque chose qui n'est pas perçu comme un problème et qui, au contraire, risque d'entraver l'impression de « liberté » dans la découverte, chère au deux tiers des Québécois·es sondé·es [@Guglielminetti2025].
+
+On l'aura compris, la tentative de jouer au jeu de la rétention avec Spotify est perdu d'avance.
+Si la majorité des auditeur·trices québécois·es se disent satisfait·es des fonctionnalités déjà en place, comme les listes de lecture et la fonction de recommandation automatique [@Guglielminetti2025], l'initiative de MusiQC, qui investit ses fonctionnalités afin d'ajouter à l'offre dans une tentative de diversification, peut sembler comme un pas dans la bonne direction.
+
+Toutefois, la musique francophone ==n'est facile à trouver que si on la cherche==.
+La philosophie d'écoute sans friction des plateformes tentent de minimiser l'interaction de l'utilisateur·trice : la conception décourage donc l'utilisation de la fonction recherche.
+_Chercher_ ne signifie pas non plus _découvrir_ : les utilisateur·trices gravitent vers des contenus connus, avant d'être redirigé·es par la plateforme vers les mêmes chansons qui ont déjà fait leurs preuves.
+
+Dans ce contexte, quel est le pouvoir d'action des bibliothèques et des bibliothécaires ?
+
 ## MétaMusique <!-- Adrien -->
 
-- La tentative de jouer au jeu de la rétention avec Spotify sur le terrain de l'argent est perdu d'avance
+Fondée en 2020 par un nombre important d'acteurs du milieu culturel et musical québécois[^accronymes], [MétaMusique](https://metamusique.ca/) se présente comme un « outil de gestion des métadonnées » qui « permet de documenter les nouvelles parutions avec des métadonnées complètes pour en simplifier ensuite la diffusion, la déclaration et le référencement » [@Metamusique2024].
+MétaMusique est une plateforme avant tout destinée aux artistes, aux producteur·trices et aux maisons de disque.
+Toutefois, 
+
+[^accronymes]: De ce nombre, on compte l'ADISQ (Association québécoise de l'industrie du disque, du spectacle et de la vidéo), l'APEM (Association des professionnels de l'édition musicale), ARTISTI, le CQM (Conseil québécois de la musique), la GMMQ (Guide des musiciens et musiciennes du Québec), la SOCAN (Society of Composers, Authors and Music Publishers of Canada), la SOPROQ (Société de gestion collective des droits des producteurs de phonogrammes et de vidéogrammes du Québec, désormais « Panorama »), la SPACQ (Société professionnelle des auteurs, compositeurs du Québec) et l'UDA (Union des artistes).
+
 - Métamusique présente l'information des métadonnées comme une « douloureuse étape obligatoire » pour les artistes.
 - Les bibliothécaires sont, par définition, des spécialistes de l'information
 - L'information prend la forme de données
 - Les bibliothécaires doivent se réfléchir comme des spécialistes des données et se positionner ainsi dans le milieu public
 - Le mot d'ordre de la métadonnée : standardisation
 - Les musicien·nes ne sont pas expert·es des données
-- L'entreprise de MétaMusique n'est réellement utile que si les données sont en quantité et en qualité suffisante pour faire rayonner 
+- L'entreprise de MétaMusique n'est réellement utile que si les données sont en quantité et en qualité suffisante pour faire rayonner les contenus
 - Les bibliothécaires et les artistes québécois·es peuvent travailler ensemble pour enrichir les contenus et ainsi améliorer leur découvrabilité
 - On a peu d'impact sur la plateforme, mais on peut avoir un impact sur la qualité des données à l'entrée
 - Il est inutile de tenter de s'insérer dans un système déjà monopolisé par des plateformes dont tous les efforts sont concentrés sur la collection de données et la rétention
