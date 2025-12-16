@@ -1,7 +1,7 @@
 <!-- Adrien, Emilie, Vincent -->
 ## Perspectives
 
-Les « vitrines » de diffusion de contenu musical comme MusiQC -- ou Qub avant elle -- tentent de répondre aux besoin d'un public ciblé et spécifique -- les auditeur·trices francophones, et spécifiquement québécois·es.
+Les « vitrines » de diffusion de contenu musical comme [MusiQC](https://musiqc.ca/) -- ou Qub avant elle [@Pare2023] -- tentent de répondre aux besoin d'un public ciblé et spécifique -- les auditeur·trices francophones, et spécifiquement québécois·es.
 À la racine de ce qui motive la création de nouveaux espaces recoupant largement les offres de plateformes hégémoniques se trouve la conviction que certains publics sont négligés par ces dernières.
 Or, que cette conviction soit fondée ou non, il demeure que les principaux·ales intéressé·es ne se _sentent_ pas négligé·es par les plateformes : en effet, @Guglielminetti2025 rapporte que ==61% des Québécois·es « estiment que la musique francophone est déjà facile à trouver »==.
 La multiplication des vitrines est donc problématique en ce qu'elle tente de régler quelque chose qui n'est pas perçu comme un problème et qui, au contraire, risque d'entraver l'impression de « liberté » dans la découverte, chère au deux tiers des Québécois·es sondé·es [@Guglielminetti2025].
@@ -26,7 +26,7 @@ Leur profession les outille et spécialise dans la maîtrise de l'information, l
 À l'exception de BAnQ, impliquées depuis 2025 dans le dépôt légal des enregistrements sonores numériques [@Metamusique2025], une étape exigée par la Loi sur Bibliothèque et Archives nationales du Québec [@EditeurofficielduQuebec2015], les bibliothèques brillent par leur absence autour du projet de MétaMusique.
 Pourtant, les bibliothécaires et les institutions dont iels sont font partie ont tout avantage à se réfléchir comme des spécialistes des (méta)données et à se positionner ainsi dans le milieu public.
 
-[^accronymes]: De ce nombre, on compte l'ADISQ (Association québécoise de l'industrie du disque, du spectacle et de la vidéo), l'APEM (Association des professionnels de l'édition musicale), ARTISTI, le CQM (Conseil québécois de la musique), la GMMQ (Guide des musiciens et musiciennes du Québec), la SOCAN (Society of Composers, Authors and Music Publishers of Canada), la SOPROQ (Société de gestion collective des droits des producteurs de phonogrammes et de vidéogrammes du Québec, désormais « Panorama »), la SPACQ (Société professionnelle des auteurs, compositeurs du Québec) et l'UDA (Union des artistes).
+[^accronymes]: De ce nombre, on compte l'ADISQ (Association québécoise de l'industrie du disque, du spectacle et de la vidéo), l'APEM (Association des professionnels de l'édition musicale), ARTISTI, le CQM (Conseil québécois de la musique), la GMMQ (Guide des musiciens et musiciennes du Québec), la SOCAN (Society of Composers, Authors and Music Publishers of Canada), la SOPROQ (Société de gestion collective des droits des producteurs de phonogrammes et de vidéogrammes du Québec, connue sous le nom de « [Panorama](https://panorama.mu/) » depuis septembre 2025), la SPACQ (Société professionnelle des auteurs, compositeurs du Québec) et l'UDA (Union des artistes).
 
 La standardisation est le mot d'ordre de la conception d'un schéma et du renseignement des métadonées [@Gilliland2016].
 Une entreprise comme celle de MétaMusique n'est donc réellement utile qu'au moment où les données sont en quantité et en qualité suffisante pour faire rayonner les contenus.
@@ -43,8 +43,13 @@ Plutôt que de tenter de jouer contre Spotify, les bibliothécaires ont avantage
 
 ### Le rôle des institutions <!-- Adrien -->
 
-- Les ressources de l'état dépassent largement celles de Spotify, mais elles sont déjà allouées au maintien de certains espaces publics, de formation, de culture
-- Beaucoup d'argent de l'état aboutit déjà dans diverses institutions : écoles, espaces publics, salles de spectacles et... bibliothèques
+S'investir dans des projets comme MétaMusique, c'est bien; utiliser les ressources des institutions que sont les bibliothèques pour mettre en valeur le contenu musical local, c'est encore mieux !
+
+Dans une perspective de compétition de plateforme à plateforme, les initiatives étatiques comme Qub ou MusiQC ne font pas le poids, en plus d'être considérées par le public comme une forme d'ingérence dans la « liberté d'écoute » des citoyen·nes [@Guglielminetti2025].
+Or, dans les faits, les ressources de l'État dépassent largement celles de Spotify : une partie de ces ressources est allouée au quotidien et depuis longtemps au développement et au maintien d'espaces publics, de formation, de culture.
+Autrement dit, beaucoup d'argent de l'État aboutit déjà dans diverses institutions en bonne position pour diffuser et promouvoir la culture locale : écoles, espaces publics, salles de spectacles et... bibliothèques.
+
+
 - Ces institutions sont déjà en place, bénéficient déjà de visibilité et de crédibilité au sein de la population citoyenne
 - Elles ne sont pourtant pas considérées comme possédant une expertise pertinente (cf le rapport Souffler les braises, dans lequel la seule bibliothèque mentionnée est BAnQ, dans un rôle dérisoire)
 - BAnQ a assumé un rôle important avec le dépôt légal de musique via MétaMusique
