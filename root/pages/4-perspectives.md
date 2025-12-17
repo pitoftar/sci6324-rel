@@ -15,7 +15,7 @@ _Chercher_ ne signifie pas non plus _découvrir_ : les utilisateur·trices grav
 
 Dans ce contexte, quel est le pouvoir d'action des bibliothèques et des bibliothécaires pour améliorer la découvrabilité et la visibilité des artistes québécois·es sur les plateformes de diffusion de musique ?
 
-### MétaMusique <!-- Adrien -->
+### Métadonnées : MétaMusique et les bibliothécaires
 
 Fondée en 2020 par un nombre important d'acteurs du milieu culturel et musical québécois[^accronymes], [MétaMusique](https://metamusique.ca/) se présente comme un « outil de gestion des métadonnées » qui « permet de documenter les nouvelles parutions avec des métadonnées complètes pour en simplifier ensuite la diffusion, la déclaration et le référencement » [@Metamusique2024].
 MétaMusique est une plateforme avant tout destinée aux artistes, aux producteur·trices et aux maisons de disque.
@@ -41,7 +41,7 @@ Considérant à la fois l'importance que des bonnes métadonnées peuvent avoir 
 En d'autres termes, l'impact que l'on peut avoir sur la plateforme est minime, mais on peut avoir un impact sur la qualité des données à l'entrée.
 Plutôt que de tenter de jouer contre Spotify, les bibliothécaires ont avantage à ==comprendre les règles du jeu et à voir comment le contenu musical québécois peut en tirer profit==.
 
-### Musique et bibliothèques <!-- Adrien -->
+### Institutions : Les bibliothèques comme lieu de transit pour le contenu musical <!-- Adrien -->
 
 S'investir dans des projets comme MétaMusique, c'est bien; utiliser les ressources des institutions que sont les bibliothèques pour mettre en valeur le contenu musical local, c'est encore mieux !
 
@@ -55,15 +55,18 @@ Les bibliothèques, qui disposent pourtant d'outils et d'expertises indispensabl
 Les bibliothécaires ont tout à gagner à prendre action pour valoriser les ressources dont disposent leurs institutions pour jouer un rôle actif dans l'intégration des artistes locaux·ales, marginalisé·es ou négligé·es par les plateformes au circuit de la diffusion culturelle.
 
 BAnQ a fait un pas dans cette direction en s'associant à MétaMusique pour le dépôt légal des enregistrements sonores numériques et en se dotant d'un rôle de diffuseur de la musique dont elle assume le dépôt légal, mais seulement sur place et sous certaines conditions.
-Le service de programmation musicale MUSICat, implanté dans une vingtaine de bibliothèques en Amérique du Nord [@Blakeley2025], est une extension de ce rôle de diffusion.
-- MUSICat offre un service de programmation implanté dans une vingtaine de bibliothèques en Amérique du Nord [@Blakeley2025]
-- Des solutions comme MusiCAT peuvent contribuer à une rémunération plus juste
-- Cependant, ces initiatives ont aussi des retombées indirectes : elles créent des liens interpersonnels entre les musicien·nes (et, au-delà, avec diverses acteur·ices du milieu culturel et musical) et les bibliothèques (et, par la bande, avec les bibliothécaires) et elle implique directement les bibliothécaires dans l'écosystème de la découverte de contenu culturel [@Smith2024]
-- MUSICat encourage les bibliothèques à envisager la musique issue de la scène locale non comme un produit à diffuser, mais comme une collection culturelle, au même titre qu'une collection de livres [@Blakeley2025]
-- Si la multiplication des plateformes peut difficilement être considérée comme une solution, les bibliothèques peuvent _a minima_ travailler en partenariat avec les artistes
-- Les institutions auraient tout avantage à se responsabiliser vis-à-vis de la scène musicale locale : prévoir des tâches (mieux, des postes !) pour les bibliothécaires, publiciser (mieux, accueillir !) des spectacles de groupes locaux
-- Les bibliothèques peuvent assumer la responsabilité de fournir du contenu culturel et musical aux personnes qui en cherchent déjà (public cible d'initiatives comme Qub ou Musiqc)
-- Elles peuvent aussi faire de l'advocacy (prendre parole) pour _intéresser_ les publics qui fréquentent la bibliothèque ou son espace numérique aux artistes de la scène locale
+Le service de programmation musicale [MUSICat](musicat.co) est une extension de ce rôle de diffusion.
+Implanté dans une vingtaine de bibliothèques en Amérique du Nord [@Blakeley2025], MUSICat est un service qui permet à une bibliothèque de mettre en ligne, au terme d'un processus de curation humaine, une plateforme de diffusion de musique crée par des artistes locaux·ales.
+En plus de contribuer à offrir aux artistes une meilleure rémunération que celle des plateformes de diffusion en continu en offrant un cachet fixe de quelques centaines de dollars en échange d'une licence de diffusion limitée et renouvellable, MUSICat encourage les bibliothèques à envisager la musique issue de la scène locale non comme un produit à diffuser, mais comme une collection culturelle, au même titre qu'une collection de livres [@Blakeley2025].
+Si la multiplication des plateformes peut difficilement être considérée comme une solution, les bibliothèques peuvent _a minima_ travailler en partenariat avec les artistes.
+Les problèmes d'une plateforme extrêmement locale comme MUSICat sont analogues à ceux des vitrines comme MusiQC, puisqu'elle constitue un circuit fermé hors des plateformes hégémoniques et qu'elle déssert avant tout une communauté d'auditeur·trices déjà investi·es et intéressé·es par la découverte musicale.
+L'avantage de MUSICat réside toutefois dans ses retombées indirectes : elles créent des liens interpersonnels entre les musicien·nes (et, au-delà, avec diverses acteur·ices du milieu culturel et musical) et les bibliothèques (et, par la bande, avec les bibliothécaires) et elle implique directement les bibliothécaires dans l'écosystème de la découverte de contenu culturel [@Smith2024].
+En d'autre termes, à travers ces initatives, les bibliothèques considèrent la curation de musique, la création de liens avec l'industrie musicale et la prise de parole en faveur des contenus locaux comme une part de leur mission.
+
+En somme, les institutions auraient tout avantage à se responsabiliser vis-à-vis de la scène musicale locale : prévoir des mandats (mieux, des postes !) pour les bibliothécaires en lien avec la valorisation musicale, publiciser (mieux, accueillir !) des spectacles de groupes locaux...
+En plus d'assumer la tâche de fournir du contenu culturel et musical aux personnes qui en cherchent déjà, c'est-à-dire au public cible d'initiatives comme Qub ou MusiQC, les bibliothèques peuvent aussi tenter d'_intéresser_ les publics qui fréquentent la bibliothèque ou son espace numérique aux artistes de la scène locale.
+
+Ceci dit, la bibliothèque n'est pas davantage qu'un regroupement de bibliothécaires assis·es à la même table : découvrabilité bien ordonnée commence par soi-même.
 
 ## Mets ton nez là-dedans ! <!-- Vincent -->
 De fil en aiguille, il a été question d'initiatives qui agissent à même la structure du processus de production de contenu musical, du rôle des institutions que sont les bibliothèques, il reste donc à agir à une échelle individuelle! Entre le ou la consommatrice et le contenu qu'elle désire se trouve un abîme que les plateformes s'acharnent à combler, mais les bibliothécaires de référence également ont en leurs mains un pouvoir de médiation et sur un espace de médiation. La mise en valeur et à disposition de contenu fait partie intégrante du travail, mais encore faut-il le reconnaître, l'identifier.  
