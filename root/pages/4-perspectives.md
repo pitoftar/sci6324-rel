@@ -1,19 +1,19 @@
 <!-- Adrien, Emilie, Vincent -->
 ## Perspectives
 
-Les « vitrines » de diffusion de contenu musical comme [MusiQC](https://musiqc.ca/) -- ou Qub avant elle [@Pare2023] -- tentent de répondre aux besoin d'un public ciblé et spécifique -- les auditeur·trices francophones, et spécifiquement québécois·es.
+Les « vitrines » de diffusion de contenu musical comme [MusiQC](https://musiqc.ca/) -- ou Qub avant elle [@Pare2023] -- tentent de répondre aux besoin d'un public ciblé et spécifique, soit les auditeur·trices francophones, et spécifiquement québécois·es.
 À la racine de ce qui motive la création de nouveaux espaces recoupant largement les offres de plateformes hégémoniques se trouve la conviction que certains publics sont négligés par ces dernières.
-Or, que cette conviction soit fondée ou non, il demeure que les principaux·ales intéressé·es ne se _sentent_ pas négligé·es par les plateformes : en effet, @Guglielminetti2025 rapporte que ==61% des Québécois·es « estiment que la musique francophone est déjà facile à trouver »==.
+Or, que cette conviction soit fondée ou non, il demeure que les principaux·ales intéressé·es ne se _sentent_ pas négligé·es par les plateformes : en effet, reprenant les données d'un sondage mené par la firme Léger en 2025, Bruno @Guglielminetti2025 rapporte que ==61% des Québécois·es « estiment que la musique francophone est déjà facile à trouver »==.
 La multiplication des vitrines est donc problématique en ce qu'elle tente de régler quelque chose qui n'est pas perçu comme un problème et qui, au contraire, risque d'entraver l'impression de « liberté » dans la découverte, chère au deux tiers des Québécois·es sondé·es [@Guglielminetti2025].
 
-On l'aura compris, la tentative de jouer au jeu de la rétention avec Spotify est perdu d'avance.
+On l'aura compris, la tentative de se lancer dans une course à la rétention contre Spotify est perdue d'avance.
 Si la majorité des auditeur·trices québécois·es se disent satisfait·es des fonctionnalités déjà en place, comme les listes de lecture et la fonction de recommandation automatique [@Guglielminetti2025], l'initiative de MusiQC, qui investit ses fonctionnalités afin d'ajouter à l'offre dans une tentative de diversification, peut sembler comme un pas dans la bonne direction.
 
-Toutefois, la musique francophone ==n'est facile à trouver que si on la cherche==.
+Toutefois, la musique francophone et québécoise ==n'est facile à trouver que si on la cherche==.
 La philosophie d'écoute sans friction des plateformes tentent de minimiser l'interaction de l'utilisateur·trice : la conception décourage donc l'utilisation de la fonction recherche.
 _Chercher_ ne signifie pas non plus _découvrir_ : les utilisateur·trices gravitent vers des contenus connus, avant d'être redirigé·es par la plateforme vers les mêmes chansons qui ont déjà fait leurs preuves.
 
-Dans ce contexte, quel est le pouvoir d'action des bibliothèques et des bibliothécaires ?
+Dans ce contexte, quel est le pouvoir d'action des bibliothèques et des bibliothécaires pour améliorer la découvrabilité et la visibilité des artistes québécois·es sur les plateformes de diffusion de musique ?
 
 ### MétaMusique <!-- Adrien -->
 
@@ -26,7 +26,7 @@ Leur profession les outille et spécialise dans la maîtrise de l'information, l
 À l'exception de BAnQ, impliquées depuis 2025 dans le dépôt légal des enregistrements sonores numériques [@Metamusique2025], une étape exigée par la Loi sur Bibliothèque et Archives nationales du Québec [@EditeurofficielduQuebec2015], les bibliothèques brillent par leur absence autour du projet de MétaMusique.
 Pourtant, les bibliothécaires et les institutions dont iels sont font partie ont tout avantage à se réfléchir comme des spécialistes des (méta)données et à se positionner ainsi dans le milieu public.
 
-[^accronymes]: De ce nombre, on compte l'ADISQ (Association québécoise de l'industrie du disque, du spectacle et de la vidéo), l'APEM (Association des professionnels de l'édition musicale), ARTISTI, le CQM (Conseil québécois de la musique), la GMMQ (Guide des musiciens et musiciennes du Québec), la SOCAN (Society of Composers, Authors and Music Publishers of Canada), la SOPROQ (Société de gestion collective des droits des producteurs de phonogrammes et de vidéogrammes du Québec, connue sous le nom de « [Panorama](https://panorama.mu/) » depuis septembre 2025), la SPACQ (Société professionnelle des auteurs, compositeurs du Québec) et l'UDA (Union des artistes).
+[^accronymes]: De ce nombre, on compte l'<abbr title="Association québécoise de l'industrie du disque, du spectacle et de la vidéo">ADISQ</abbr>, l'<abbr title="Association des professionnels de l'édition musicale">APEM</abbr>, ARTISTI, le <abbr title="Conseil québécois de la musique">CQM</abbr>, la <abbr title="Guilde des musiciens et musiciennes du Québec">GMMQ</abbr>, la <abbr title="Society of Composers, Authors and Music Publishers of Canada">SOCAN</abbr>, la <abbr title="Société de gestion collective des droits des producteurs de phonogrammes et de vidéogrammes du Québec">SOPROQ</abbr> (connue sous le nom de « [Panorama](https://panorama.mu/) » depuis septembre 2025), la <abbr title="Société professionnelle des auteurs et des compositeurs du Québec">SPACQ</abbr> et l'<abbr title="Union des artistes">UDA</abbr>.
 
 La standardisation est le mot d'ordre de la conception d'un schéma et du renseignement des métadonées [@Gilliland2016].
 Une entreprise comme celle de MétaMusique n'est donc réellement utile qu'au moment où les données sont en quantité et en qualité suffisante pour faire rayonner les contenus.
