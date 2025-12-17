@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Mélomane | Méthodologie</title>
+  <link type="text/css" rel="stylesheet" href="../css/stylesheet.css" media="screen">
+</head>
+<body>
+<div class="navbar" id="chapeau">
+    <div class="navtab"><a href="../lander.html#t1-1">Plateformes et découvrabilité</a></div>
+    <div class="navtab"><a href="#t2-1">Écosystème du contenu musical québécois</a></div>
+    <div class="navtab"><a href="#t2-2">Perspectives</a></div>
+    <div class="navtab"><a href="pages/methodologie.html">Méthodologie</a></div>
+    <div class="navtab"><a href="pages/a_propos.html">À propos</a></div>
+</div>
+<div class="flechehaut">
+    <a href="#t1-1"><img src="../media/up-arrow.png" title="Vers le haut de la page"/></a>
+</div>
+<div class="cont">
+    <div class="standalone">
+        <h1 id="Méthodologie">Méthodologie</h1>
+        <h2 id="sélection-des-listes-de-lecture">Sélection des listes de
+        lecture</h2>
+        <p>Les données de la visualisation ont été récoltées à partir de l’<a
+        href="https://developer.spotify.com/">API de Spotify</a> le 13 novembre
+        2025, grâce à une requête pour récupérer les listes de lecture de
+        <code>chansons quebecoises</code>. 50 listes de lecture ont été
+        extraites de cette façon : nous inférons qu’il s’agit des premiers
+        résultats de recherche. De celles-ci, nous avons écarté des listes de
+        lecture thématiques ou saisonnières (e.g. de musique de Noël) qui
+        risquaient d’interférer avec les données d’écoute de manière
+        généralisée. Nous avons également limité notre sélection aux listes de
+        lecture créées par Spotify.</p>
+        <p>Par la suite, 58 listes de lectures disponibles sur le <a
+        href="https://open.spotify.com/user/313awqjv57r24tr4lb6ucxapono4">profil
+        utilisateur de MusiQC</a> ont été récupérées. De celles-ci, une
+        sélection de 25 listes de lecture a été effectuée sur la base de leur
+        pertinence. Nous avons notamment écarté les titres mettant en valeur la
+        musique francophone non-québécoise (française, belge, suisse…) et
+        sélectionné les listes restantes selon trois critères : 1) programmées
+        par une personnalité du milieu culturel québécois (de type « Untel aime
+        ça ! »); 2) encourageant l’écoute passive de musique, destinées comme
+        adatptées à une activité ou à un contexte en particulier (de type
+        « Apéro romantique »); 3) remplissant une fonction politique ou
+        programmatique propre à la mission de MusiQC (de type « Rentrée scolaire
+        2025 ! », programmée par le ministre de l’Éducation Bernard
+        Drainville).</p>
+        <h2 id="visualisation">Visualisation</h2>
+        <p>Pour créer une carte de toutes les chansons figurant dans 25 listes
+        de lecture uniques, nous avons utilisé <a
+        href="https://kumu.io/">Kumu</a>. Il s’agit d’une plateforme de
+        visualisation qui permet de comprendre les relations entre des éléments.
+        Nous avons utilisé <a
+        href="https://blog.kumu.io/endless-data-possibilities-utilizing-apis-for-data-import-into-kumu-869c9e328728">ce
+        tutoriel</a> pour créer nos cartes.</p>
+        <h3 id="extraire-les-données">Extraire les données</h3>
+        <blockquote>
+        <p>Outils utilisés : Google Sheets; API Connector; abonnement Spotify
+        Premium</p>
+        </blockquote>
+        <h4 id="configurer-un-connecteur-api">Configurer un connecteur API</h4>
+        <p>Nous avons utilisé <a
+        href="https://workspace.google.com/marketplace/app/api_connector/95804724197">API
+        Connector</a>, un plugiciel (<em>plug-in</em>) pour Google Sheets. Il
+        était assez facile à utiliser et nous a permis d’extraire des données de
+        Spotify. Une fois installée à partir de la page du <em>plug-in</em>,
+        l’API est disponible dans l’onglet Extensions dans Google Sheets.</p>
+        <p>À partir de l’onglet « Requests », sélectionnez le bouton « Create
+        request ».</p>
+        <p>Si vous utilisez le connecteur pour la première fois, vous devrez
+        ajouter une nouvelle connexion OAuth (à Spotify dans notre cas).</p>
+        <p>Sous « Add new OAuth », recherchez Spotify, puis cliquez sur «
+        Connect ».</p>
+        <p>Sélectionnez « Create new request » pour créer votre première
+        requête.</p>
+        <h4 id="créer-la-requête">Créer la requête</h4>
+        <p>Nous nous sommes référés à la <a
+        href="https://developer.spotify.com/documentation/web-api">documentation
+        de Spotify</a> pour créer une requête. Il existe plusieurs façons de
+        procéder.</p>
+        <p>D’abord, nous étions intéressés par un genre spécifique reconnu par
+        Spotify : « Chanson Quebecois » [<em>sic</em>]. Nous nous sommes
+        référé·es à <a
+        href="https://gist.github.com/andytlr/4104c667a62d8145aa3a">cette
+        liste</a>, partagée <em>via</em> GitHub Gist, pour trouver le genre qui
+        nous intéressait et confirmer son orthographe.</p>
+        <p>La requête que nous avons utilisée pour récupérer la liste des
+        playlists est la suivante :</p>
+        <p><code>https://api.spotify.com/v1/search?q=chansons%2520quebecois&amp;type=playlist&amp;market=CA&amp;limit=50</code></p>
+        <p>Nous souhaitions également extraire les listes de lecture créées par
+        un utilisateur spécifique, MusiQC. L’identifiant utilisateur a été
+        trouvé sur le site Web de Spotify en accédant directement au profil de
+        l’utilisateur et en récupérant le code alphanumérique dans l’URL.</p>
+        <p>La requête que nous avons utilisée pour récupérer la liste des
+        playlists est la suivante :</p>
+        <p><code>https://api.spotify.com/v1/users/313awqjv57r24tr4lb6ucxapono4/playlists</code></p>
+        <h4 id="extraire-des-listes-de-lecture-depuis-spotify">Extraire des
+        listes de lecture depuis Spotify</h4>
+        <p>À ce stade, nous travaillions dans un document Google Sheets et nous
+        avions le panneau API Connector ouvert sur le côté droit.</p>
+        <p>Nous avons collé la requête que nous avons créée dans la case «
+        Request URL » (URL de requête).</p>
+        <p>Nous avons sélectionné Spotify dans la section OAuth. Vous devriez
+        déjà être inscrit avec votre identifiant Spotify.</p>
+        <p>Sélectionnez la cellule et indiquez la feuille dans laquelle vous
+        souhaitez que les données soient exportées sous « Output Settings »
+        (Paramètres de sortie), puis exécutez la requête ! Les résultats
+        devraient ressembler à ceci :</p>
+        <figure>
+        <img src="../media/metho/calc1.png"
+        alt="Feuille de calcul présentant les résultats d’une requête faite à partir de l’API Spotify pour le genre « Chansons Quebecois »" />
+        <figcaption aria-hidden="true">Feuille de calcul présentant les
+        résultats d’une requête faite à partir de l’API Spotify pour le genre
+        « Chansons Quebecois »</figcaption>
+        </figure>
+        <figure>
+        <img src="../media/metho/calc2.png"
+        alt="Feuille de calcul présentant les résultats d’une requête faite à partir de l’API Spotify pour le profil utilisateur MusiQC" />
+        <figcaption aria-hidden="true">Feuille de calcul présentant les
+        résultats d’une requête faite à partir de l’API Spotify pour le profil
+        utilisateur MusiQC</figcaption>
+        </figure>
+        <h4 id="extraire-des-chansons-des-listes-de-lecture">Extraire des
+        chansons des listes de lecture</h4>
+        <p>Maintenant que nous avions une liste de playlists, nous disposions de
+        leurs identifiants uniques. L’API Spotify permet d’utiliser cet
+        identifiant de playlist pour obtenir ensuite une liste des chansons
+        contenus dans chaque playlist.</p>
+        <p><strong>Identifiants de la liste de lecture</strong> :
+        <code>playlists.items.id</code></p>
+        <p><strong>Nom de la liste de lecture</strong> :
+        <code>playlists.items.name</code></p>
+        <p><strong>Propriétaire de la liste de lecture</strong> :
+        <code>playlists.items.owner.display_name</code></p>
+        <p><strong>Description de la liste de lecture</strong> :
+        <code>playlists.items.description</code></p>
+        <p>La requête pour extraire des chansons individuelles se présente comme
+        suit et doit être créée manuellement :</p>
+        <p><code>https://api.spotify.com/v1/playlists/</code>PLAYLIST_ID_ICI<code>/tracks</code></p>
+        <p>Nous étions uniquement intéressé·es par les playlists créées par
+        Spotify. Nous avons isolé les identifiants des playlists qui nous
+        intéressaient et les avons collés dans une nouvelle feuille afin de
+        créer de manière programmatique nos requêtes pour chaque playlist.</p>
+        <p>Nous avons ensuite utilisé la fonction <code>=TEXTJOIN</code> pour
+        créer une colonne contenant l’URL de requête pour chaque liste de
+        lecture.</p>
+        <figure>
+        <img src="../media/metho/textjoin.png"
+        alt="Feuille de calcul listant les identifiants uniques des listes de lecture et utilisant la formule textjoin pour générer des requêtes pour l’API" />
+        <figcaption aria-hidden="true">Feuille de calcul listant les
+        identifiants uniques des listes de lecture et utilisant la formule
+        textjoin pour générer des requêtes pour l’API</figcaption>
+        </figure>
+        <p>Nous avons pu coller plusieurs requêtes à la fois dans le connecteur
+        API dans la section « URL de requête ».</p>
+        <p>Dans « Output Options », nous avons coché les options « Add
+        timestamp », « Add request URL » et « Add request body ». Cela nous a
+        permis de différencier facilement les chansons associées à chaque liste
+        de lecture.</p>
+        <figure>
+        <img src="../media/metho/options.png"
+        alt="Options cochées dans l’API lors de la requête" />
+        <figcaption aria-hidden="true">Options cochées dans l’API lors de la
+        requête</figcaption>
+        </figure>
+        <h3 id="mise-en-forme-des-données">Mise en forme des données</h3>
+        <blockquote>
+        <p>Outils utilisés : Google Sheets; Microsoft Excel; PowerQuery</p>
+        </blockquote>
+        <p>Il était maintenant temps de structurer les données pour les importer
+        dans Kumu. Nous avons réorganisé toutes les données au format standard
+        de Kumu, en veillant à ce qu’il y ait une colonne intitulée « Labels »
+        (noms des playlists ou des chansons) et « Type » (playlists et
+        chansons).</p>
+        <h4 id="récupérer-toutes-les-données-importantes">Récupérer toutes les
+        données importantes</h4>
+        <blockquote>
+        <p>Cette étape nécessite beaucoup de copier-coller !</p>
+        </blockquote>
+        <p>Les données générées par la requête API sont assez volumineuses, il
+        est donc utile de les formater afin de regrouper toutes les informations
+        importantes au même endroit. Cette étape est facultative, mais
+        utile.</p>
+        <p>Nous avons conçu <a
+        href="https://docs.google.com/spreadsheets/d/1hhtWQHIedv5RP2Ecbb2TonboKkl_GeuPyd3eUbfIx7M/edit?usp=sharing">un
+        tableau</a> qui peut être copié et est utile pour regrouper clairement
+        les données issues des deux tableaux, (1) des listes de lecture et (2)
+        des chansons.</p>
+        <h4 id="formatter-les-données-pour-kumu">Formatter les données pour
+        Kumu</h4>
+        <h5 id="création-des-deux-feuilles-distinctes">Création des deux
+        feuilles distinctes</h5>
+        <p>Afin de faciliter l’importation optimale de nos données dans Kumu,
+        les informations ont été formatées en deux feuilles distinctes au sein
+        d’un même tableur. Une feuille est dédiée à toutes les informations
+        concernant les playlists, tandis qu’une seconde feuille a été consacrée
+        à toutes les informations concernant les chansons. Il est important que
+        les noms et les identifiants des playlists correspondent. Pour mener à
+        bien cette étape, nous nous sommes fié·es à <a
+        href="https://docs.kumu.io/guides/import/import">la documentation
+        fournie par Kumu concernant l’importation des données</a>.</p>
+        <p>Le <a
+        href="https://docs.google.com/spreadsheets/d/1ffBRiC8DPqxO7aKOz6PggDHGOQniJYmnlGHhiqCnyKg/edit?usp=sharing">tableau
+        suivant</a> peut être copié et utilisé pour mettre en forme vos propres
+        données. Il contient un exemple de nos données mises en forme .</p>
+        <h5 id="création-dune-colonne-pour-les-artistes">Création d’une colonne
+        pour les artistes</h5>
+        <p>Si une chanson comporte plusieurs artistes, ces informations seront
+        réparties sur plusieurs colonnes. Nous avons utilisé la fonction
+        <code>=TEXTJOIN</code> pour regrouper ces informations dans une seule
+        colonne.</p>
+        <figure>
+        <img src="../media/metho/textjoin_artistes.png"
+        alt="Feuille de calcul présentant les résultats de la requête et utilisant la formule textjoin pour regrouper les artistes en un seul champ" />
+        <figcaption aria-hidden="true">Feuille de calcul présentant les
+        résultats de la requête et utilisant la formule textjoin pour regrouper
+        les artistes en un seul champ</figcaption>
+        </figure>
+        <h4 id="formatter-dans-powerquery-dans-excel">Formatter dans PowerQuery
+        (dans Excel)</h4>
+        <p>La partie suivante est très importante si vous souhaitez visualiser
+        le nombre de chansons présentes dans plusieurs listes de lecture. Dans
+        sa forme actuelle, les chansons qui apparaissent plusieurs fois dans
+        l’ensemble de données auront le même identifiant et le même nom, mais
+        seront associées à des identifiants et des noms de playlists
+        différents.</p>
+        <p>Ce qu’il faut faire à cette étape, c’est dédupliquer ces entrées de
+        chansons et séparer les informations de playlist multiples à l’aide
+        d’une barre verticale <code>|</code>.</p>
+        <p>Ainsi, une chanson qui figure dans plusieurs playlists apparaîtra
+        comme suit dans l’ensemble de données :</p>
+        <figure>
+        <img src="../media/metho/multi_playlists.png"
+        alt="Tableau présentant quatre chansons figurant dans plusieurs listes de lecture" />
+        <figcaption aria-hidden="true">Tableau présentant quatre chansons
+        figurant dans plusieurs listes de lecture</figcaption>
+        </figure>
+        <h5 id="préparer-le-tableau">Préparer le tableau</h5>
+        <p>Nous avons commencé par télécharger notre feuille Google Sheet sous
+        forme de document <code>.xlsx</code> et l’avons ouverte dans Excel.</p>
+        <p>Dans Excel, nous avons créé un tableau contenant nos données sur les
+        chansons, suivant le chemin suivant dans les menus : Accueil &gt;
+        Insérer &gt; Tableau. Confirmez la plage et vérifiez que l’option « Ma
+        table comporte des en-têtes » est cochée, puis cliquez sur OK. La
+        sélection prend désormais la forme d’un tableau Excel, ce qui facilite
+        son chargement dans PowerQuery.</p>
+        <h5 id="charger-dans-powerquery">Charger dans PowerQuery</h5>
+        <p>Accédez à l’onglet Données &gt; À partir d’un tableau/plage. La
+        fenêtre Power Query Editor s’ouvre avec notre tableau et affiche nos
+        colonnes (<code>Track_ID</code>, <code>Label</code>, etc.)</p>
+        <p>Nous avons ensuite choisi comment définir les doublons. Cela signifie
+        quelles colonnes identifient de manière unique une chanson. Nous avons
+        sélectionné <code>Track_ID</code>, <code>Label</code> (nom de la
+        chanson), <code>Artiste</code>, <code>Image</code>,
+        <code>Track_URL</code> et <code>Track_Preview</code>. Pour sélectionner
+        plusieurs colonnes en même temps, appuyez sur CTRL/CMD au moment de
+        sélectionner les items. Nous avons ensuite sélectionné « Regrouper
+        par ».</p>
+        <h5 id="agréger-les-données-dans-powerquery">Agréger les données dans
+        PowerQuery</h5>
+        <p>Dans la boîte de dialogue « Regrouper par » qui s’affiche, configurez
+        ensuite les informations qui doivent être agrégées.</p>
+        <p>Dans notre cas, nous devions agréger les noms des listes de lecture
+        (<code>Playlist</code>), les identifiants des listes de lecture
+        (<code>Playlist_ID</code>) et la description des listes de lecture
+        (<code>Description</code>). Sous l’option « Nouveau nom de colonne »,
+        nous avons choisi : <code>nouv_Playlists</code>. Pour l’option
+        « Opération », nous avons choisi « Toutes les lignes », car cela créera
+        une liste que nous pourrons transformer plus tard.</p>
+        <p>Cliquez sur « OK » pour créer le tableau groupé. Cette étape a
+        ensuite été répétée pour chaque nouvelle colonne.</p>
+        <figure>
+        <img src="../media/metho/PwQ-group_by.png"
+        alt="Fenêtre de sélection dans PowerQuery" />
+        <figcaption aria-hidden="true">Fenêtre de sélection dans
+        PowerQuery</figcaption>
+        </figure>
+        <figure>
+        <img src="../media/metho/PwQ-tableau_resultant.png"
+        alt="Résultat de l’opération « Regrouper par » dans PowerQuery" />
+        <figcaption aria-hidden="true">Résultat de l’opération « Regrouper par »
+        dans PowerQuery</figcaption>
+        </figure>
+        <h4 id="combiner-les-informations-dans-powerquery">Combiner les
+        informations dans PowerQuery</h4>
+        <p>Nous voulions maintenant demander à PowerQuery de combiner tous les
+        noms de listes de lecture de chaque groupe en une seule valeur texte.
+        Dans le tableau, nous avons localisé la colonne
+        <code>nouv_Playlist</code> créée par « Regrouper par », nous l’avons
+        sélectionnée, puis avons créé une nouvelle colonne à partir de la
+        fonction Ajouter une colonne &gt; Colonne personnalisée.</p>
+        <figure>
+        <img src="../media/metho/PwQ-nouvelle_col.png"
+        alt="Fenêtre de création d’une colonne personnalisée dans PowerQuery" />
+        <figcaption aria-hidden="true">Fenêtre de création d’une colonne
+        personnalisée dans PowerQuery</figcaption>
+        </figure>
+        <p>Nous avons répété cette étape pour les deux autres colonnes qui
+        devaient être agrégées (<code>Playlist_ID</code> et
+        <code>Description</code>). Une fois ces étapes terminées, nous avons
+        sélectionné « Fermer et charger ».</p>
+        <h2 id="créer-la-visualisation-dans-kumu">Créer la visualisation dans
+        Kumu</h2>
+        <blockquote>
+        <p>Outil utilisé : Kumu</p>
+        </blockquote>
+        <h3 id="importer-les-données">Importer les données</h3>
+        <p>Dans une nouvelle carte Kumu, nous avons importé la feuille de
+        calcul. Nous avons testé l’importation d’une feuille Google Sheet et
+        d’un formulaire <code>.xlsx</code>. Des erreurs peuvent survenir lors de
+        l’importation. Nous avons dû supprimer les lignes supplémentaires et
+        nettoyer les cellules vides pour résoudre les messages d’erreur. Nous
+        avons finalement opté pour l’importation d’un formulaire
+        <code>.xlsx</code>, car les éléments de la carte bougeaient lorsque nous
+        importions une feuille Google Sheet. Si vous décidez d’importer une
+        feuille Google Sheet, Kumu fournit <a
+        href="https://docs.kumu.io/guides/import/google-sheets">de la
+        documentation à cet effet</a>.</p>
+        <h3 id="créer-les-liens">Créer les liens</h3>
+        <p>Une fois les données importées, nous avons dû établir le lien entre
+        les listes de lecture et les chansons. Nous avons utilisé la
+        fonctionnalité « Connect by » de Kumu pour sélectionner le champ «
+        Playlist ». Kumu trouve ainsi les éléments qui sont des listes de
+        lecture et les connecte automatiquement aux éléments qui sont des
+        chansons.</p>
+        <figure>
+        <img src="../media/metho/kumu_connect.png"
+        alt="Interface de Kumu pour personnaliser l’aspect de la visualisation" />
+        <figcaption aria-hidden="true">Interface de Kumu pour personnaliser
+        l’aspect de la visualisation</figcaption>
+        </figure>
+        <h3 id="classer-les-chansons-par-popularité">Classer les chansons par
+        popularité</h3>
+        <p>Nous voulions que les chansons soient classées par degré,
+        c’est-à-dire que plus le degré est élevé, plus la chanson apparaît dans
+        un grand nombre de listes de lecture. Pour ce faire, nous avons
+        sélectionné l’icône en forme de bécher en bas de l’écran, qui permet
+        d’explorer <a href="https://docs.kumu.io/guides/metrics">la fonction
+        « Metrics » de Kumu</a>.</p>
+        <p>Nous avons ensuite suivi ce chemin dans les menus : Metrics &gt;
+        Social Network Analysis &gt; Choose a metric &gt; Degree &gt; Discover
+        the connectors/Hubs</p>
+        <h3 id="décorer-les-éléments">Décorer les éléments</h3>
+        <p>À des fins esthétiques, nous avons utilisé <a
+        href="https://docs.kumu.io/guides/decorate">les fonctions « Decoration »
+        de Kumu</a>, et avons choisi de représenter les listes de lecture sous
+        forme de cercles et les morceaux sous forme de triangles, puis nous
+        avons mis les les morceaux à l’échelle en fonction de leur degré.</p>
+        <figure>
+        <img src="../media/metho/kumu_deco.png"
+        alt="Sélection des propriétés esthétiques de la visualisation sur Kumu" />
+        <figcaption aria-hidden="true">Sélection des propriétés esthétiques de
+        la visualisation sur Kumu</figcaption>
+        </figure>
+        <h3 id="mettre-les-éléments-en-place">Mettre les éléments en place</h3>
+        <p>Afin de conserver les éléments en place, nous avons utilisé <a
+        href="https://docs.kumu.io/guides/layouts/snap-to">la fonction « Snap
+        to » de Kumu</a>.</p>
+        <figure>
+        <img src="../media/metho/kumu_snap.png"
+        alt="Mise en place de la fonction de fixation des éléments" />
+        <figcaption aria-hidden="true">Mise en place de la fonction de fixation
+        des éléments</figcaption>
+        </figure>
+        <h3 id="ajouter-des-informations-aux-éléments">Ajouter des informations
+        aux éléments</h3>
+        <p>À l’aide de <a
+        href="https://docs.kumu.io/guides/decorate/popovers">la fonction
+        « Popovers » de Kumu</a>, nous avons ajouté des informations
+        contextuelles afin que tout le monde puisse survoler une playlist ou une
+        chanson et voir son nom et ses informations de base.</p>
+        <h3 id="créer-des-filtres-pour-les-éléments">Créer des filtres pour les
+        éléments</h3>
+        <p>Nous avons ajouté des commandes en haut de la page afin que tout le
+        monde puisse <a
+        href="https://docs.kumu.io/guides/controls/filter-control">filtrer les
+        données</a> pour ne voir que les chansons qui apparaissent dans
+        plusieurs listes de lecture.</p>
+        <p>Nous avons ensuite utilisé le sélecteur dans la barre de recherche
+        (icône en forme de fusée à droite après avoir cliqué sur la barre de
+        recherche) pour sélectionner uniquement les listes de lecture, puis nous
+        avons utilisé la fonction d’alignement pour placer ces listes de lecture
+        dans un cercle.</p>
+    </div>
+</div>
+</body>
+</html>

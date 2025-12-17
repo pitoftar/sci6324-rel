@@ -81,8 +81,16 @@ body {
 .cont {
     display: flex;
     flex-direction: row;
-    height: 89vh;
+    height: 85vh;
     line-height: 175%;
+}
+
+.standalone {
+    flex-basis: 70%;
+    overflow-y: auto;
+    width: 50%;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 .gauche {
@@ -113,6 +121,12 @@ mark, .surligner{
 .media {
     flex-grow: 1;
     flex-shrink: 1;
+}
+
+/* images et décoration */
+
+img {
+    width: 100%;
 }
 
 /* classes de texte */
