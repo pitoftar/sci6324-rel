@@ -1,6 +1,7 @@
 /* feuille de route
 - [ ] style pour figcaption
 - [ ] style pour blockquotes
+- [ ] style pour callouts
 - [ ] feuille de style dark mode
 - [ ] bouton dark mode
 - [ ] feuille de style pour mobile
@@ -89,9 +90,9 @@ body {
 .standalone {
     flex-basis: 70%;
     overflow-y: auto;
-    width: 50%;
-    padding-left: 25%;
-    padding-right: 25%;
+    width: 60%;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .gauche {
