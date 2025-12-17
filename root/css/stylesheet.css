@@ -100,7 +100,6 @@ mark, .surligner{
     var(--accent-orange) 28%,
     var(--floating-background) 28%
   ) !important;
-  font-weight: bold;
   color: var(--taupe);
 }
 

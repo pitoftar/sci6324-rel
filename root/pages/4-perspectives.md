@@ -46,14 +46,16 @@ Plutôt que de tenter de jouer contre Spotify, les bibliothécaires ont avantage
 S'investir dans des projets comme MétaMusique, c'est bien; utiliser les ressources des institutions que sont les bibliothèques pour mettre en valeur le contenu musical local, c'est encore mieux !
 
 Dans une perspective de compétition de plateforme à plateforme, les initiatives étatiques comme Qub ou MusiQC ne font pas le poids, en plus d'être considérées par le public comme une forme d'ingérence dans la « liberté d'écoute » des citoyen·nes [@Guglielminetti2025].
-Or, dans les faits, les ressources de l'État dépassent largement celles de Spotify : une partie de ces ressources est allouée au quotidien et depuis longtemps au développement et au maintien d'espaces publics, de formation, de culture.
+Or, dans les faits, les ressources de l'État dépassent largement celles de Spotify : seulement, une partie de ces ressources est allouée au quotidien et depuis longtemps au développement et au maintien d'espaces publics, de formation, de culture.
 Autrement dit, beaucoup d'argent de l'État aboutit déjà dans diverses institutions en bonne position pour diffuser et promouvoir la culture locale : écoles, espaces publics, salles de spectacles et... bibliothèques.
+Ces institutions bénéficient déjà de visibilité et de crédibilité au sein de la population citoyenne.
+Pourtant, les bibliothèques peinent à être considérées comme un atout ou comme possédant une expertise pertinente : dans le rapport _Souffler les braises : pour une stratégie nationale de l'audiovisuel au Québec_, @Simard.etal2025 s'appuient surtout sur le rôle que peuvent jouer la <abbr title="Société de développement des entreprises culturelles">SODEC</abbr> et la chaîne de télévision étatique, Télé-Québec, dans la valorisation du contenu audiovisuel québécois.
+Les établissements scolaires et la mise en place d'une « éducation à l'image » [@Simard.etal2025, p. 112-123] est un autre pilier dans la stratégie proposée.
+Les bibliothèques, qui disposent pourtant d'outils et d'expertises indispensables à la diffusion et valorisation des contenus culturels, sont reléguées à un rôle canonique de conservation : BAnQ, seule institution bibliothécaire mentionnée dans le rapport, est considérée comme un organe « conserve et valorise », une « infrastructure essentielle de mémoire collective et d'inclusion culturelle » [@Simard.etal2025, 60-61], véhicule de la « disponibilité pérenne » [@Simard.etal2025, p. 140] des œuvres.
+Les bibliothécaires ont tout à gagner à prendre action pour valoriser les ressources dont disposent leurs institutions pour jouer un rôle actif dans l'intégration des artistes locaux·ales, marginalisé·es ou négligé·es par les plateformes au circuit de la diffusion culturelle.
 
-
-- Ces institutions sont déjà en place, bénéficient déjà de visibilité et de crédibilité au sein de la population citoyenne
-- Elles ne sont pourtant pas considérées comme possédant une expertise pertinente (cf le rapport Souffler les braises, dans lequel la seule bibliothèque mentionnée est BAnQ, dans un rôle dérisoire)
-- BAnQ a assumé un rôle important avec le dépôt légal de musique via MétaMusique
-- BAnQ se pose aussi comme un diffuseur de la musique dont elle assume le dépôt légal, mais seulement sur place et sous certaines conditions
+BAnQ a fait un pas dans cette direction en s'associant à MétaMusique pour le dépôt légal des enregistrements sonores numériques et en se dotant d'un rôle de diffuseur de la musique dont elle assume le dépôt légal, mais seulement sur place et sous certaines conditions.
+Le service de programmation musicale MUSICat, implanté dans une vingtaine de bibliothèques en Amérique du Nord [@Blakeley2025], est une extension de ce rôle de diffusion.
 - MUSICat offre un service de programmation implanté dans une vingtaine de bibliothèques en Amérique du Nord [@Blakeley2025]
 - Des solutions comme MusiCAT peuvent contribuer à une rémunération plus juste
 - Cependant, ces initiatives ont aussi des retombées indirectes : elles créent des liens interpersonnels entre les musicien·nes (et, au-delà, avec diverses acteur·ices du milieu culturel et musical) et les bibliothèques (et, par la bande, avec les bibliothécaires) et elle implique directement les bibliothécaires dans l'écosystème de la découverte de contenu culturel [@Smith2024]
