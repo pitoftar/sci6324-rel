@@ -66,7 +66,7 @@ En d'autre termes, à travers ces initatives, les bibliothèques considèrent la
 En somme, les institutions auraient tout avantage à se responsabiliser vis-à-vis de la scène musicale locale : prévoir des mandats (mieux, des postes !) pour les bibliothécaires en lien avec la valorisation musicale, publiciser (mieux, accueillir !) des spectacles de groupes locaux...
 En plus d'assumer la tâche de fournir du contenu culturel et musical aux personnes qui en cherchent déjà, c'est-à-dire au public cible d'initiatives comme Qub ou MusiQC, les bibliothèques peuvent aussi tenter d'_intéresser_ les publics qui fréquentent la bibliothèque ou son espace numérique aux artistes de la scène locale.
 
-Ceci dit, la bibliothèque n'est pas davantage qu'un regroupement de bibliothécaires assis·es à la même table : découvrabilité bien ordonnée commence par soi-même.
+Ceci dit, la bibliothèque n'est pas davantage qu'un regroupement de bibliothécaires assis·es à la même table, et découvrabilité bien ordonnée commence par soi-même.
 
 ## Mets ton nez là-dedans ! <!-- Vincent -->
 De fil en aiguille, il a été question d'initiatives qui agissent à même la structure du processus de production de contenu musical, du rôle des institutions que sont les bibliothèques, il reste donc à agir à une échelle individuelle! Entre le ou la consommatrice et le contenu qu'elle désire se trouve un abîme que les plateformes s'acharnent à combler, mais les bibliothécaires de référence également ont en leurs mains un pouvoir de médiation et sur un espace de médiation. La mise en valeur et à disposition de contenu fait partie intégrante du travail, mais encore faut-il le reconnaître, l'identifier.  
