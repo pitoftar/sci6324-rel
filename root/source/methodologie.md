@@ -84,7 +84,7 @@ Nous étions uniquement intéressé·es par les playlists créées par Spotify. 
 
 Nous avons ensuite utilisé la fonction `=TEXTJOIN` pour créer une colonne contenant l'URL de requête pour chaque liste de lecture.
 
-![Feuille de calcul listant les identifiants uniques des listes de lecture et utilisant la formule textjoin pour générer des requêtes pour l'API](../media/metho/textjoin.PNG)
+![Feuille de calcul listant les identifiants uniques des listes de lecture et utilisant la formule textjoin pour générer des requêtes pour l'API](../media/metho/textjoin.png)
 
 Nous avons pu coller plusieurs requêtes à la fois dans le connecteur API dans la section « URL de requête ». 
 
@@ -118,7 +118,7 @@ Le [tableau suivant](https://docs.google.com/spreadsheets/d/1ffBRiC8DPqxO7aKOz6P
 
 Si une chanson comporte plusieurs artistes, ces informations seront réparties sur plusieurs colonnes. Nous avons utilisé la fonction `=TEXTJOIN` pour regrouper ces informations dans une seule colonne.
 
-![Feuille de calcul présentant les résultats de la requête et utilisant la formule textjoin pour regrouper les artistes en un seul champ](../media/metho/textjoin_artistes.PNG)
+![Feuille de calcul présentant les résultats de la requête et utilisant la formule textjoin pour regrouper les artistes en un seul champ](../media/metho/textjoin_artistes.png)
 
 #### Formatter dans PowerQuery (dans Excel) 
 
@@ -151,7 +151,7 @@ Dans notre cas, nous devions agréger les noms des listes de lecture (`Playlist`
 
 Cliquez sur « OK » pour créer le tableau groupé. Cette étape a ensuite été répétée pour chaque nouvelle colonne.
 
-![Fenêtre de sélection dans PowerQuery](../media/metho/PwQ-group_by.PNG)
+![Fenêtre de sélection dans PowerQuery](../media/metho/PwQ-group_by.png)
 
 ![Résultat de l'opération « Regrouper par » dans PowerQuery](../media/metho/PwQ-tableau_resultant.png)
 
@@ -159,7 +159,7 @@ Cliquez sur « OK » pour créer le tableau groupé. Cette étape a ensuite é
 
 Nous voulions maintenant demander à PowerQuery de combiner tous les noms de listes de lecture de chaque groupe en une seule valeur texte. Dans le tableau, nous avons localisé la colonne `nouv_Playlist` créée par « Regrouper par », nous l'avons sélectionnée, puis avons créé une nouvelle colonne à partir de la fonction Ajouter une colonne > Colonne personnalisée.
 
-![Fenêtre de création d'une colonne personnalisée dans PowerQuery](../media/metho/PwQ-nouvelle_col.PNG)
+![Fenêtre de création d'une colonne personnalisée dans PowerQuery](../media/metho/PwQ-nouvelle_col.png)
 
 Nous avons répété cette étape pour les deux autres colonnes qui devaient être agrégées (`Playlist_ID` et `Description`). Une fois ces étapes terminées, nous avons sélectionné « Fermer et charger ». 
 
@@ -175,7 +175,7 @@ Dans une nouvelle carte Kumu, nous avons importé la feuille de calcul. Nous avo
 
 Une fois les données importées, nous avons dû établir le lien entre les listes de lecture et les chansons. Nous avons utilisé la fonctionnalité « Connect by » de Kumu pour sélectionner le champ « Playlist ». Kumu trouve ainsi les éléments qui sont des listes de lecture et les connecte automatiquement aux éléments qui sont des chansons.
 
-![Interface de Kumu pour personnaliser l'aspect de la visualisation](../media/metho/kumu_connect.PNG)
+![Interface de Kumu pour personnaliser l'aspect de la visualisation](../media/metho/kumu_connect.png)
 
 ### Classer les chansons par popularité
 
@@ -187,13 +187,13 @@ Nous avons ensuite suivi ce chemin dans les menus : Metrics > Social Network An
 
 À des fins esthétiques, nous avons utilisé [les fonctions « Decoration » de Kumu](https://docs.kumu.io/guides/decorate), et avons choisi de représenter les listes de lecture sous forme de cercles et les morceaux sous forme de triangles, puis nous avons mis les les morceaux à l'échelle en fonction de leur degré.
 
-![Sélection des propriétés esthétiques de la visualisation sur Kumu](../media/metho/kumu_deco.PNG)
+![Sélection des propriétés esthétiques de la visualisation sur Kumu](../media/metho/kumu_deco.png)
 
 ### Mettre les éléments en place
 
 Afin de conserver les éléments en place, nous avons utilisé [la fonction « Snap to » de Kumu](https://docs.kumu.io/guides/layouts/snap-to).
 
-![Mise en place de la fonction de fixation des éléments](../media/metho/kumu_snap.PNG)
+![Mise en place de la fonction de fixation des éléments](../media/metho/kumu_snap.png)
 
 ### Ajouter des informations aux éléments
 
