@@ -61,13 +61,10 @@ body {
   transform: scaleX(1);
 }
 
-.flechehaut {
+.flechehaut img {
     position: fixed;
     bottom: 2%;
     left: 2%;
-}
-
-.flechehaut img {
     height: 50px;
     width: 50px;
 }
@@ -133,13 +130,13 @@ h3 {
 
 code {
     font-weight: bold;
-    color: var(--accent-rose)
+    color: var(--secondaire-cyan)
 }
 
 /* liens hypertexte et abbr*/
 
 a {
-    color: var(--secondaire-cyan);
+    color: var(--accent-rose);
     text-decoration: none;
 }
 
