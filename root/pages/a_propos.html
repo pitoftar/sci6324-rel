@@ -5,23 +5,58 @@
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>Mélomane | À propos</title>
-  <!DOCTYPE html>
-  <link type="text/css" rel="stylesheet" href="../css/stylesheet.css" media="screen">
+  <link type="text/css" rel="stylesheet" href="../css/stylesheet.css" media="screen" id="theme-clair">
+  <link type="text/css" rel="stylesheet" href="../css/stylesheet-sombre.css" media="screen" id="theme-sombre" disabled>
 </head>
 <body>
 <div class="navbar" id="chapeau">
     <div class="navtab"><a href="../lander.html">Accueil</a></div>
-    <div class="navtab"><a href="#t1-1">Des plateformes</a></div>
+    <div class="navtab"><a href="../lander.html#plateformes">Des plateformes</a></div>
     <div class="navtab"><a href="#t2-1">Un écosystème</a></div>
-    <div class="navtab"><a href="#t2-2">Perspectives</a></div>
+    <div class="navtab"><a href="../lander.html#perspectives">Perspectives</a></div>
     <div class="navtab"><a href="methodologie.html">Méthodologie</a></div>
     <div class="navtab"><a href="a_propos.html">À propos</a></div>
 </div>
 <div class="flechehaut">
-    <a href="#t1-1"><img src="../media/up-arrow.png" title="Vers le haut de la page"/></a>
+    <a href="#à-propos"><img src="../media/up-arrow.png" title="Vers le haut de la page"/></a>
 </div>
 </head>
 <body>
+  <div class="darkmode" aria-label="Mode sombre">
+    <img id="toggle-dark-mode" src="../media/sun-moon.svg" alt="Icône de soleil et de lune">
+    <script>
+      const toggleBtn = document.getElementById("toggle-dark-mode");
+      const themeClair = document.getElementById("theme-clair");
+      const themeSombre = document.getElementById("theme-sombre");
+
+      toggleBtn.addEventListener("click", () => {
+        const darkEnabled = !themeSombre.disabled;
+
+        themeSombre.disabled = darkEnabled;
+        themeClair.disabled = !darkEnabled;
+      });
+      // À vérifier
+      const toggleBtn = document.getElementById("theme-toggle");
+      const lightTheme = document.getElementById("light-theme");
+      const darkTheme = document.getElementById("dark-theme");
+
+      function setTheme(theme) {
+        const isDark = theme === "dark";
+        darkTheme.disabled = !isDark;
+        lightTheme.disabled = isDark;
+        localStorage.setItem("theme", theme);
+      }
+
+      toggleBtn.addEventListener("click", () => {
+        const currentTheme = darkTheme.disabled ? "dark" : "light";
+        setTheme(currentTheme);
+      });
+
+      // Load saved theme
+      const savedTheme = localStorage.getItem("theme") || "light";
+      setTheme(savedTheme);
+    </script>
+  </div>
   <div class="cont">
     <div class="standalone">
   <h1 id="à-propos">À propos</h1>

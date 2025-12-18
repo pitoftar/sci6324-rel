@@ -1,7 +1,7 @@
 /* feuille de route
 - [x] style pour figcaption
 - [x] style pour blockquotes
-- [ ] feuille de style dark mode
+- [x] feuille de style dark mode
 - [ ] bouton dark mode
 - [ ] feuille de style pour mobile
 */
@@ -19,16 +19,16 @@
 }
 
 body {
-    background-color: var(--off-white);
+    background-color: var(--taupe-sombre);
     font-size: 1.2em;
-    color: var(--taupe);
+    color: var(--off-white);
     font-family: 'Avenir Light', 'Avenir', 'Montserrat', 'Helvetica', sans-serif;
 }
 
 /* navigation */
 
 .navbar {
-    background-color: var(--secondaire-bleu);
+    background-color: var(--bleu-clair);
     padding: 0.2em;
     margin: 0.2em;
     margin-bottom: 2em;
@@ -79,14 +79,6 @@ body {
     width: 50px;
 }
 
-.darkmode {
-    position: fixed;
-    top: 4em;
-    right: 2%;
-    height: 35px;
-    width: 35px;
-}
-
 /* corps du texte */
 
 .cont {
@@ -118,7 +110,7 @@ body {
 }
 
 mark {
-  --floating-background: var(--off-white);
+  --floating-background: var(--taupe-sombre);
   border-radius: 0;
   padding-bottom: 1px;
   background-image: linear-gradient(
@@ -126,7 +118,7 @@ mark {
     var(--accent-orange) 20%,
     var(--floating-background) 20%
   ) !important;
-  color: var(--taupe);
+  color: var(--off-white);
 }
 
 .media {
@@ -141,14 +133,14 @@ img {
 }
 
 figcaption {
-    color: var(--secondaire-bleu);
+    color: var(--bleu-clair);
     text-align: center;
     font-size: 0.9em;
     line-height: normal;
 }
 
 blockquote {
-    background: var(--off-white);
+    background: var(--taupe-sombre);
     border-left: 10px solid var(--secondaire-cyan);
     margin: 1.5em 10px;
     padding: 0.1em 10px;
@@ -158,14 +150,14 @@ blockquote {
 /* classes de texte */
 
 h1 {
-    color: var(--secondaire-bleu);
+    color: var(--bleu-clair);
     font-family: 'Montserrat', 'Helvetica', sans-serif;
     text-align: center;
     font-variant-caps: small-caps;
 }
 
 h2, h3, h4, h5, h6 {
-    color: var(--secondaire-bleu);
+    color: var(--bleu-clair);
     font-family: 'Montserrat', 'Helvetica', sans-serif;
 }
 
@@ -203,7 +195,7 @@ abbr:hover::after {
     display: block;
     padding: 1em;
     border-radius: 10px;
-    background: var(--taupe);
+    background: var(--taupe-sombre);
     color: var(--off-white);
     content: attr(title);
     line-height: normal;

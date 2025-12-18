@@ -5,19 +5,19 @@
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>Mélomane | Méthodologie</title>
-  <link type="text/css" rel="stylesheet" href="../css/stylesheet.css" media="screen">
+  <link type="text/css" rel="stylesheet" href="../css/stylesheet-sombre.css" media="screen">
 </head>
 <body>
 <div class="navbar" id="chapeau">
     <div class="navtab"><a href="../lander.html">Accueil</a></div>
-    <div class="navtab"><a href="#t1-1">Des plateformes</a></div>
+    <div class="navtab"><a href="../lander.html#plateformes">Des plateformes</a></div>
     <div class="navtab"><a href="#t2-1">Un écosystème</a></div>
-    <div class="navtab"><a href="#t2-2">Perspectives</a></div>
+    <div class="navtab"><a href="../lander.html#perspectives">Perspectives</a></div>
     <div class="navtab"><a href="methodologie.html">Méthodologie</a></div>
     <div class="navtab"><a href="a_propos.html">À propos</a></div>
 </div>
 <div class="flechehaut">
-    <a href="#t1-1"><img src="../media/up-arrow.png" title="Vers le haut de la page"/></a>
+    <a href="#Méthodologie"><img src="../media/up-arrow.png" title="Vers le haut de la page"/></a>
 </div>
 <div class="cont">
     <div class="standalone">
@@ -27,7 +27,7 @@
         <p>Les données de la visualisation ont été récoltées à partir de l’<a
         href="https://developer.spotify.com/">API de Spotify</a> le 13 novembre
         2025, grâce à une requête pour récupérer les listes de lecture de
-        <code>chansons quebecoises</code>. 27 listes de lecture ont été
+        chansons québécoises. 27 listes de lecture ont été
         extraites de cette façon : nous inférons qu’il s’agit des premiers
         résultats de recherche. De celles-ci, nous avons écarté des listes de
         lecture thématiques ou saisonnières (e.g. de musique de Noël) qui
@@ -36,7 +36,7 @@
         lecture créées par Spotify.</p>
         <p>Par la suite, les 100 listes de lectures les plus récentes disponibles sur le <a
         href="https://open.spotify.com/user/313awqjv57r24tr4lb6ucxapono4">profil
-        utilisateur de MusiQC</a> ont été récupérées. De celles-ci, une
+        utilisateur de MUSIQC</a> ont été récupérées. De celles-ci, une
         sélection de 25 listes de lecture a été effectuée sur la base de leur
         pertinence. Nous avons notamment écarté les titres mettant en valeur la
         musique francophone non-québécoise (française, belge, suisse…) et
@@ -45,7 +45,7 @@
         ça ! »); (2) encourageant l’écoute passive de musique, destinées comme
         adatptées à une activité ou à un contexte en particulier (de type
         « Apéro romantique »); (3) remplissant une fonction politique ou
-        programmatique propre à la mission de MusiQC (de type « Rentrée scolaire
+        programmatique propre à la mission de MUSIQC (de type « Rentrée scolaire
         2025 ! », créée par le ministre de l’Éducation Bernard
         Drainville).</p>
         <h2 id="visualisation">Visualisation</h2>
@@ -91,7 +91,7 @@
         playlists est la suivante :</p>
         <p><code>https://api.spotify.com/v1/search?q=chansons%2520quebecois&amp;type=playlist&amp;market=CA&amp;limit=50</code></p>
         <p>Nous souhaitions également extraire les listes de lecture créées par
-        un utilisateur spécifique, MusiQC. L’identifiant utilisateur a été
+        un utilisateur spécifique, MUSIQC. L’identifiant utilisateur a été
         trouvé sur le site Web de Spotify en accédant directement au profil de
         l’utilisateur et en récupérant le code alphanumérique dans l’URL.</p>
         <p>La requête que nous avons utilisée pour récupérer la liste des
@@ -118,10 +118,10 @@
         </figure>
         <figure>
         <img src="../media/metho/calc2.png"
-        alt="Feuille de calcul présentant les résultats d’une requête faite à partir de l’API Spotify pour le profil utilisateur MusiQC" />
+        alt="Feuille de calcul présentant les résultats d’une requête faite à partir de l’API Spotify pour le profil utilisateur MUSIQC" />
         <figcaption aria-hidden="true">Feuille de calcul présentant les
         résultats d’une requête faite à partir de l’API Spotify pour le profil
-        utilisateur MusiQC</figcaption>
+        utilisateur MUSIQC</figcaption>
         </figure>
         <h4 id="extraire-des-chansons-des-listes-de-lecture">1.4 Extraire des
         chansons des listes de lecture</h4>
@@ -148,7 +148,7 @@
         créer une colonne contenant l’URL de requête pour chaque liste de
         lecture.</p>
         <figure>
-        <img src="../media/metho/textjoin.png"
+        <img src="../media/metho/textjoin_api.png"
         alt="Feuille de calcul listant les identifiants uniques des listes de lecture et utilisant la formule textjoin pour générer des requêtes pour l’API" />
         <figcaption aria-hidden="true">Feuille de calcul listant les
         identifiants uniques des listes de lecture et utilisant la formule
