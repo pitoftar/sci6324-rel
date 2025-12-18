@@ -25,27 +25,7 @@
 <body>
   <div class="darkmode" aria-label="Mode sombre">
     <img id="toggle-dark-mode" src="../media/sun-moon.svg" alt="Icône de soleil et de lune">
-    <script>
-      const toggleBtn = document.getElementById("toggle-dark-mode");
-      const themeClair = document.getElementById("theme-clair");
-      const themeSombre = document.getElementById("theme-sombre");
-
-      function setTheme(theme) {
-        const isDark = theme === "sombre";
-        themeSombre.disabled = !isDark;
-        themeClair.disabled = isDark;
-        localStorage.setItem("theme", theme);
-      }
-
-      toggleBtn.addEventListener("click", () => {
-        const currentTheme = themeSombre.disabled ? "sombre" : "clair";
-        setTheme(currentTheme);
-      });
-
-      // Load saved theme
-      const savedTheme = localStorage.getItem("theme") || "clair";
-      setTheme(savedTheme);
-    </script>
+    <script src="../js/darkmode.js"></script>
   </div>
   <div class="cont">
     <div class="standalone">
