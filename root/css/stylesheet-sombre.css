@@ -14,6 +14,7 @@
     --secondaire-bleu: #0070c0;
     --bleu-clair: #33aaff;
     --secondaire-mauve: #581c9e;
+    --mauve-clair: #aa74e7;
     --accent-orange: #ff855d;
     --accent-rose: #fe4687;
 }
@@ -33,11 +34,13 @@ body {
     margin: 0.2em;
     margin-bottom: 2em;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .navtab {
     color: var(--off-white);
     flex-grow: 1;
+    flex: 1 1 160px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     padding: 0.5em;
@@ -78,6 +81,19 @@ body {
     height: 50px;
     width: 50px;
 }
+
+.darkmode {
+    position: fixed;
+    background-color: var(--off-white);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 50%;
+    top: 4em;
+    right: 2%;
+    height: 35px;
+    width: 35px;
+}
+
 
 /* corps du texte */
 
@@ -174,7 +190,7 @@ a {
 }
 
 a:active, a:hover {
-    color: var(--secondaire-mauve);
+    color: var(--mauve-clair);
 }
 
 /*

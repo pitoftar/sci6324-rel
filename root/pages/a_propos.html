@@ -7,6 +7,7 @@
   <title>Mélomane | À propos</title>
   <link type="text/css" rel="stylesheet" href="../css/stylesheet.css" media="screen" id="theme-clair">
   <link type="text/css" rel="stylesheet" href="../css/stylesheet-sombre.css" media="screen" id="theme-sombre" disabled>
+  <link rel="icon" type="image/x-icon" href="../media/favicon.ico">
 </head>
 <body>
 <div class="navbar" id="chapeau">
@@ -29,31 +30,20 @@
       const themeClair = document.getElementById("theme-clair");
       const themeSombre = document.getElementById("theme-sombre");
 
-      toggleBtn.addEventListener("click", () => {
-        const darkEnabled = !themeSombre.disabled;
-
-        themeSombre.disabled = darkEnabled;
-        themeClair.disabled = !darkEnabled;
-      });
-      // À vérifier
-      const toggleBtn = document.getElementById("theme-toggle");
-      const lightTheme = document.getElementById("light-theme");
-      const darkTheme = document.getElementById("dark-theme");
-
       function setTheme(theme) {
-        const isDark = theme === "dark";
-        darkTheme.disabled = !isDark;
-        lightTheme.disabled = isDark;
+        const isDark = theme === "sombre";
+        themeSombre.disabled = !isDark;
+        themeClair.disabled = isDark;
         localStorage.setItem("theme", theme);
       }
 
       toggleBtn.addEventListener("click", () => {
-        const currentTheme = darkTheme.disabled ? "dark" : "light";
+        const currentTheme = themeSombre.disabled ? "sombre" : "clair";
         setTheme(currentTheme);
       });
 
       // Load saved theme
-      const savedTheme = localStorage.getItem("theme") || "light";
+      const savedTheme = localStorage.getItem("theme") || "clair";
       setTheme(savedTheme);
     </script>
   </div>
