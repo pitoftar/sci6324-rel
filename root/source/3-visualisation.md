@@ -1,15 +1,14 @@
 <!-- Adrien & Emilie -->
 ### Spotify
 
+L'analyse des listes de lectures de contenu québécois sur Spotify révèle certaines tendances : parmi les 25 listes sélectionnées, aucune d'entre elles n'est complètement isolée des autres.
+De plus, les chansons présentes dans plusieurs listes de lecture réflètent, sans surprise, les tendances musicales de l'année 2025 : on retrouve la chanson _Dis-moi dis-moi dis-moi_ de Lou-Adrianne Cassidy, lauréate de l'ADISQ, dans six _playlists_.
+
 Dans les listes de lecture extraites de Spotify selon le genre « Chansons québécoises », on retrouvait d'abord un grand nombre de chansons américaines.
-_La Hit Liste_ est une liste de lecture qui mélange des chansons populaires à l'échelle mondiale et des chansons populaires québécoises.
+La plupart d'entre elles étaient issues de _La Hit Liste_, une liste de lecture qui mélange des chansons populaires à l'échelle internationale (c'est-à-dire surtout des artistes états-unien·ne·s) et des chansons populaires québécoises.
 Ce faisant, elle adopte une approche qui ressemble à celle adoptée par les radios populaire : utiliser du contenu populaire pour valoriser le contenu québécois.
 
-L'analyse des listes de lectures de contenu québécois révèle certaines tendances : parmi les 25 listes sélectionnées, aucune d'entre elles n'est complètement isolée des autres.
-
-<!-- Pistes de réflexion :
-* aussi des titres anglophones qui figurent dans plus d'une liste de lecture ?
-* contenu très actuel : Lou-Adrianne Cassidy (coqueluche musicale du Québec en 2025) -->
+Les listes de lecture comportent un plus grand nombre de chansons chacune, ce qui résulte également en un plus grand nombre de morceaux partagés entre plusieurs compilations.
 
 ### MUSIQC
 
@@ -18,7 +17,6 @@ En tentant de combattre une hégémonie -- celle des plateformes de diffusion d
 Ce faisant, le projet de la plateforme est affaibli.
 L'expérience de MUSIQC témoigne que la seule catégorie de musique « en français » n'est pas un regroupement fédérateur et que son impact sur la désirabilité des contenus est minime.
 
-<!-- Pistes de réflexion :
-* plus ou moins diversifié que Spotify? est-ce que plus de chansons sont partagées entre plus de playlists?
-* Rentrée scolaire de Bernard Drainville : vraiment le degré 0 de la musique québécoise. La liste de lecture n'est pas créée dans une optique de découverte musicale.
-* est-ce qu'on peut inférer quelque chose à propos du public cible de MUSIQC vs Spotify ? -->
+Les listes de lecture sur MUSIQC reflètent leur mission de curation humaine et sont plus courtes.
+C'est pourquoi un moins grand nombre de chansons sont partagés entre plusieurs _playlists_.
+Cependant, là aussi, on retrouve Lou-Adrianne Cassidy parmi les artistes favori·e·s des programmateur·trices.
